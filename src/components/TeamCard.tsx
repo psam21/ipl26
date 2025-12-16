@@ -105,7 +105,7 @@ export function TeamCard({ team }: TeamCardProps) {
           </div>
         </div>
 
-        <div className="mt-4 flex gap-2">
+        <div className="mt-2 flex gap-2">
             <span className="px-2 py-1 rounded bg-zinc-800 text-[10px] text-zinc-400 border border-zinc-700">
                 {team.playersBought} Players
             </span>

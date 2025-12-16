@@ -2,59 +2,165 @@
 
 import { getPlayerImageUrl } from '@/utils/images';
 import { useState } from 'react';
+import { Player } from '@/types';
 
 interface PitchViewProps {
   bestXI: string;
   teamCode: string;
+  roster?: Player[];
 }
 
-export function PitchView({ bestXI, teamCode }: PitchViewProps) {
+export function PitchView({ bestXI, teamCode, roster = [] }: PitchViewProps) {
   // Parse the Best XI string which is comma separated
-  // e.g. "**Gaikwad**, Short ✈️, **Samson**, Dube..."
-  // We need to clean it up
-  const players = bestXI.split(',').map(p => p.trim().replace(/\*\*/g, ''));
+  const xiPlayers = bestXI.split(',').map(p => p.trim().replace(/\*\*/g, ''));
+  
+  // Helper to clean names for comparison
+  const cleanName = (n: string) => n.replace('✈️', '').replace('(c)', '').replace('(wk)', '').replace(/\*\*/g, '').trim().toLowerCase();
+  
+  // Identify reserves
+  const xiCleanNames = new Set(xiPlayers.map(cleanName));
+  
+  // Filter roster to find players NOT in Best XI
+  // We use a fuzzy match: if the roster name contains the XI name (or vice versa), we assume it's the same player
+  const reserves = roster.filter(p => {
+    const pName = p.name.toLowerCase();
+    // Check if this player matches any name in the XI
+    const isInXI = Array.from(xiCleanNames).some(xiName => {
+        // Check for exact match or substring match (e.g. "Gaikwad" in "Ruturaj Gaikwad")
+        // But be careful: "Sharma" might match "Rohit Sharma" and "Ishant Sharma"
+        // So we prefer if the XI name is a significant part of the roster name
+        return pName.includes(xiName) || xiName.includes(pName);
+    });
+    return !isInXI;
+  });
+
+  // Group reserves by type
+  const reserveBatters = reserves.filter(p => p.type === 'BAT' || p.type === 'WK');
+  const reserveARs = reserves.filter(p => p.type === 'AR');
+  const reserveBowlers = reserves.filter(p => p.type === 'BOWL');
+
+  // Distribute reserves to left and right sides to balance them
+  // Strategy: 
+  // Top (Openers/Top Order): Batters
+  // Middle (Middle Order): ARs
+  // Bottom (Bowlers): Bowlers
+  
+  // We'll split each group into left and right arrays
+  const split = (arr: Player[]) => {
+    const mid = Math.ceil(arr.length / 2);
+    return [arr.slice(0, mid), arr.slice(mid)];
+  };
+
+  const [leftBatters, rightBatters] = split(reserveBatters);
+  const [leftARs, rightARs] = split(reserveARs);
+  const [leftBowlers, rightBowlers] = split(reserveBowlers);
 
   return (
     <div className="relative w-full h-[400px] bg-green-900/20 rounded-lg border border-green-800/30 overflow-hidden p-4">
-      {/* Pitch Markings */}
-      <div className="absolute inset-x-12 top-8 bottom-8 border-2 border-green-800/20 rounded-full" />
-      <div className="absolute inset-x-24 top-0 bottom-0 border-x-2 border-dashed border-green-800/10" />
+      {/* Pitch Markings - Made narrower to allow space on sides */}
+      <div className="absolute inset-x-24 top-8 bottom-8 border-2 border-green-800/20 rounded-full" />
+      <div className="absolute inset-x-32 top-0 bottom-0 border-x-2 border-dashed border-green-800/10" />
       
-      {/* Players Grid - Simple visualization for now */}
-      <div className="relative h-full flex flex-col justify-between py-2">
+      {/* Left Sidebar Reserves */}
+      <div className="absolute left-2 top-4 bottom-4 w-20 flex flex-col justify-between py-4 z-10">
+        <div className="flex flex-col gap-2 items-center">
+            {leftBatters.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        </div>
+        <div className="flex flex-col gap-2 items-center">
+            {leftARs.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        </div>
+        <div className="flex flex-col gap-2 items-center">
+            {leftBowlers.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        </div>
+      </div>
+
+      {/* Right Sidebar Reserves */}
+      <div className="absolute right-2 top-4 bottom-4 w-20 flex flex-col justify-between py-4 z-10">
+        <div className="flex flex-col gap-2 items-center">
+            {rightBatters.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        </div>
+        <div className="flex flex-col gap-2 items-center">
+            {rightARs.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        </div>
+        <div className="flex flex-col gap-2 items-center">
+            {rightBowlers.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        </div>
+      </div>
+
+      {/* Players Grid - Best XI */}
+      <div className="relative h-full flex flex-col justify-between py-2 mx-16">
         {/* Openers */}
         <div className="flex justify-center gap-8">
-          <PlayerPill name={players[0]} teamCode={teamCode} />
-          <PlayerPill name={players[1]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[0]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[1]} teamCode={teamCode} />
         </div>
         
         {/* Top Order */}
         <div className="flex justify-center">
-          <PlayerPill name={players[2]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[2]} teamCode={teamCode} />
         </div>
 
         {/* Middle Order */}
         <div className="flex justify-center gap-12">
-          <PlayerPill name={players[3]} teamCode={teamCode} />
-          <PlayerPill name={players[4]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[3]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[4]} teamCode={teamCode} />
         </div>
 
         {/* Lower Middle / All Rounders */}
         <div className="flex justify-center gap-8">
-          <PlayerPill name={players[5]} teamCode={teamCode} />
-          <PlayerPill name={players[6]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[5]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[6]} teamCode={teamCode} />
         </div>
 
         {/* Bowlers */}
         <div className="flex justify-center gap-4">
-          <PlayerPill name={players[7]} teamCode={teamCode} />
-          <PlayerPill name={players[8]} teamCode={teamCode} />
-          <PlayerPill name={players[9]} teamCode={teamCode} />
-          <PlayerPill name={players[10]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[7]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[8]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[9]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[10]} teamCode={teamCode} />
         </div>
       </div>
     </div>
   );
+}
+
+function MiniPlayerPill({ player, teamCode }: { player: Player; teamCode: string }) {
+    const [error, setError] = useState(false);
+    const imageUrl = getPlayerImageUrl(teamCode, player.name);
+    
+    // Infer overseas from name if possible, but roster doesn't have it. 
+    // We can't easily know for reserves unless we check against a known list or if the user provided it.
+    // For now, default to Indian style unless we know otherwise.
+    // Actually, we can check if the name is in the Best XI string with a plane icon, but these are reserves.
+    // So we don't know. We'll just use the blue style for all reserves for now, or maybe a neutral one.
+    const isOverseas = false; // Default for reserves as we don't have the data easily available
+
+    return (
+        <div className="group relative">
+            <div className={`
+                w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold border-2 overflow-hidden transition-all duration-300
+                ${isOverseas 
+                ? 'bg-purple-900/50 border-purple-500 text-purple-200' 
+                : 'bg-zinc-800 border-zinc-600 text-zinc-300'}
+                hover:scale-125 hover:z-20 cursor-help
+            `}>
+                {!error ? (
+                <img 
+                    src={imageUrl} 
+                    alt={player.name}
+                    className="w-full h-full object-cover"
+                    onError={() => setError(true)}
+                />
+                ) : (
+                player.name.charAt(0)
+                )}
+            </div>
+            {/* Tooltip */}
+            <div className="absolute left-full ml-2 top-1/2 -translate-y-1/2 bg-black/80 text-white text-[10px] px-2 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none z-30">
+                {player.name} ({player.type})
+            </div>
+        </div>
+    );
 }
 
 function PlayerPill({ name, teamCode }: { name: string; teamCode: string }) {

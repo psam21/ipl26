@@ -6,13 +6,13 @@ A real-time, interactive dashboard for analyzing the IPL 2026 Mega Auction resul
 
 ## 🚀 Features
 
-- **League Overview**: Real-time ticker showing total league spending, overseas slot usage, and top buys.
-- **Bento Grid Dashboard**: Compact, responsive cards for all 10 teams displaying purse status, squad size, and key risks (SPOF).
+- **League Overview**: Real-time ticker showing total league spending, overseas slot usage, and top 10 most expensive buys.
+- **Bento Grid Dashboard**: Compact, responsive cards for all 10 teams displaying purse spent, squad size, and key risks (SPOF).
 - **Interactive Team Drawers**: Drill down into any team to view:
   - **SWOT Analysis**: Strengths and Weaknesses parsed from expert analysis.
-  - **Pitch View**: Visual representation of the "Best XI" on a cricket field.
+  - **Pitch View**: Visual representation of the "Best XI" on a cricket field, with sidebars showing squad depth (reserves).
   - **Roster Table**: Sortable list of all players with price tags and "New" player badges.
-- **Visual Analytics**: Color-coded indicators for Title Probability (Green/Yellow/Red).
+- **Visual Analytics**: Color-coded indicators for Title Probability (Green/Yellow/Red) and detailed probability breakdowns.
 
 ## 🛠️ Tech Stack
 
@@ -33,7 +33,9 @@ A real-time, interactive dashboard for analyzing the IPL 2026 Mega Auction resul
 │   ├── data/           # Generated JSON data (ipl_data.json)
 │   └── types/          # TypeScript definitions
 ├── data_source/        # Raw text files (Auction List & Team Analysis)
-├── scripts/            # Data processing scripts (seed-data.ts)
+├── scripts/            # Data processing & scraping scripts
+│   ├── scraping/       # Web scraping modules (teams, players)
+│   └── seed-data.ts    # Main data generation script
 └── public/             # Static assets
 ```
 

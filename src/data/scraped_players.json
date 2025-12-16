@@ -2279,5 +2279,113 @@
     "age": 27,
     "iplDebut": "2018",
     "totalYears": 9
+  },
+  {
+    "name": "T Natarajan",
+    "teamCode": "DC",
+    "profileUrl": "https://www.iplt20.com/players/t-natarajan/3831 ",
+    "dob": "27 May 1991",
+    "iplDebut": "2017",
+    "age": 34,
+    "totalYears": 10
+  },
+  {
+    "name": "M Shahrukh Khan",
+    "teamCode": "GT",
+    "profileUrl": "https://www.iplt20.com/players/shahrukh-khan/7779 ",
+    "dob": "27 May 1995",
+    "iplDebut": "2021",
+    "age": 30,
+    "totalYears": 6
+  },
+  {
+    "name": "Varun Chakravarthy",
+    "teamCode": "KKR",
+    "profileUrl": "https://www.iplt20.com/players/varun-chakaravarthy/5432 ",
+    "dob": "29 August 1991",
+    "iplDebut": "2019",
+    "age": 34,
+    "totalYears": 8
+  },
+  {
+    "name": "Mohammed Shami",
+    "teamCode": "LSG",
+    "profileUrl": "https://www.iplt20.com/players/mohammad-shami/94 ",
+    "dob": "03 September 1990",
+    "iplDebut": "2013",
+    "age": 35,
+    "totalYears": 14
+  },
+  {
+    "name": "Suryakumar Yadav",
+    "teamCode": "MI",
+    "profileUrl": "https://www.iplt20.com/players/surya-kumar-yadav/108 ",
+    "dob": "14 September 1990",
+    "iplDebut": "2012",
+    "age": 35,
+    "totalYears": 15
+  },
+  {
+    "name": "Lungi Ngidi",
+    "teamCode": "DC",
+    "profileUrl": "https://www.iplt20.com/players/lungisani-ngidi/3746 ",
+    "dob": "29 March 1996",
+    "iplDebut": "2018",
+    "age": 29,
+    "totalYears": 9
+  },
+  {
+    "name": "Arshad Khan",
+    "teamCode": "GT",
+    "profileUrl": "https://www.iplt20.com/players/rashid-khan/2885 ",
+    "dob": "20 September 1998",
+    "iplDebut": "2017",
+    "age": 27,
+    "totalYears": 10
+  },
+  {
+    "name": "Shahbaz Ahmed",
+    "teamCode": "LSG",
+    "profileUrl": "https://www.iplt20.com/players/shahbaz-ahamad/13803 ",
+    "dob": "11 December 1994",
+    "iplDebut": "2020",
+    "age": 31,
+    "totalYears": 7
+  },
+  {
+    "name": "Tilak Varma",
+    "teamCode": "MI",
+    "profileUrl": "https://www.iplt20.com/players/n-tilak-varma/20594 ",
+    "dob": "08 November 2002",
+    "iplDebut": "2022",
+    "age": 23,
+    "totalYears": 5
+  },
+  {
+    "name": "AM Ghazanfar",
+    "teamCode": "MI",
+    "profileUrl": "https://www.iplt20.com/players/allah-ghazanfar/20725 ",
+    "dob": "15 July 2007",
+    "iplDebut": "2024",
+    "age": 18,
+    "totalYears": 3
+  },
+  {
+    "name": "Mitchell Owen",
+    "teamCode": "PBKS",
+    "profileUrl": "https://www.iplt20.com/players/mitch-owen/22380 ",
+    "dob": "16 September 2001",
+    "iplDebut": "2025",
+    "age": 24,
+    "totalYears": 2
+  },
+  {
+    "name": "Praveen Dubey",
+    "teamCode": "PBKS",
+    "profileUrl": "https://www.iplt20.com/players/pravin-dubey/3188 ",
+    "dob": "01 July 1993",
+    "iplDebut": "2020",
+    "age": 32,
+    "totalYears": 7
   }
 ]

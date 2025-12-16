@@ -287,7 +287,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "10.75"
+        "soldPrice": "10.75",
+        "age": 34,
+        "totalYears": 10
       },
       {
         "name": "Tristan Stubbs",
@@ -353,7 +355,9 @@
         "type": "BOWL",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 29,
+        "totalYears": 9
       },
       {
         "name": "Ben Duckett",
@@ -557,7 +561,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 30,
+        "totalYears": 6
       },
       {
         "name": "Rahul Tewatia",
@@ -614,7 +620,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.30"
+        "soldPrice": "1.30",
+        "age": 27,
+        "totalYears": 10
       },
       {
         "name": "Ashok Sharma",
@@ -757,7 +765,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "12.00"
+        "soldPrice": "12.00",
+        "age": 34,
+        "totalYears": 8
       },
       {
         "name": "Sunil Narine",
@@ -1005,7 +1015,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "10.00"
+        "soldPrice": "10.00",
+        "age": 35,
+        "totalYears": 14
       },
       {
         "name": "Avesh Khan",
@@ -1073,7 +1085,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.40"
+        "soldPrice": "2.40",
+        "age": 31,
+        "totalYears": 7
       },
       {
         "name": "Akshat Raghuwanshi",
@@ -1239,7 +1253,9 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "16.35"
+        "soldPrice": "16.35",
+        "age": 35,
+        "totalYears": 15
       },
       {
         "name": "Rohit Sharma",
@@ -1273,7 +1289,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "8.00"
+        "soldPrice": "8.00",
+        "age": 23,
+        "totalYears": 5
       },
       {
         "name": "Naman Dhir",
@@ -1298,7 +1316,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.80"
+        "soldPrice": "4.80",
+        "age": 18,
+        "totalYears": 3
       },
       {
         "name": "Sherfane Rutherford",
@@ -1549,7 +1569,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "3.00"
+        "soldPrice": "3.00",
+        "age": 24,
+        "totalYears": 2
       },
       {
         "name": "Cooper Connolly",
@@ -1664,7 +1686,9 @@
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.30",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 32,
+        "totalYears": 7
       }
     ],
     "name": "Punjab Kings",

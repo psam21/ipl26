@@ -9,6 +9,8 @@ interface Player {
   isNew: boolean;
   basePrice: string;
   soldPrice: string;
+  age?: number;
+  totalYears?: number;
 }
 
 interface TeamStats {
@@ -33,11 +35,19 @@ interface TeamAnalysis {
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const AUCTION_FILE = path.join(PROJECT_ROOT, 'data_source', 'IPL 2026 Auction Complete Players List.txt');
 const ANALYSIS_FILE = path.join(PROJECT_ROOT, 'data_source', 'IPL 2026 Team Analysis.txt');
+const SCRAPED_PLAYERS_FILE = path.join(PROJECT_ROOT, 'src', 'data', 'scraped_players.json');
 
 async function parseAuctionFile(): Promise<TeamStats[]> {
   const content = fs.readFileSync(AUCTION_FILE, 'utf-8');
   const lines = content.split('\n').map(l => l.trim()).filter(l => l);
   
+  // Load scraped player details
+  let scrapedPlayers: any[] = [];
+  if (fs.existsSync(SCRAPED_PLAYERS_FILE)) {
+    scrapedPlayers = JSON.parse(fs.readFileSync(SCRAPED_PLAYERS_FILE, 'utf-8'));
+  }
+  const playerDetailsMap = new Map(scrapedPlayers.map(p => [p.name.toLowerCase(), p]));
+
   const teams: TeamStats[] = [];
   let currentTeam: Partial<TeamStats> | null = null;
   let parsingRoster = false;
@@ -147,13 +157,18 @@ async function parseAuctionFile(): Promise<TeamStats[]> {
       const base = parts[1];
       const sold = parts[2];
 
+      // Look up details
+      const details = playerDetailsMap.get(playerName.toLowerCase());
+
       if (currentTeam.roster) {
         currentTeam.roster.push({
             name: playerName,
             type,
             isNew,
             basePrice: base,
-            soldPrice: sold
+            soldPrice: sold,
+            age: details?.age,
+            totalYears: details?.totalYears
         });
       }
       i++; // Advance past details line

@@ -4,6 +4,8 @@ export interface Player {
   isNew: boolean;
   basePrice: string;
   soldPrice: string;
+  age?: number;
+  totalYears?: number;
 }
 
 export interface TeamAnalysis {

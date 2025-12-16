@@ -7,14 +7,18 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "18.00"
+        "soldPrice": "18.00",
+        "age": 28,
+        "totalYears": 7
       },
       {
         "name": "Sanju Samson",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "18.00"
+        "soldPrice": "18.00",
+        "age": 31,
+        "totalYears": 14
       },
       {
         "name": "Kartik Sharma",
@@ -35,70 +39,88 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "12.00"
+        "soldPrice": "12.00",
+        "age": 32,
+        "totalYears": 8
       },
       {
         "name": "Noor Ahmad",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "10.00"
+        "soldPrice": "10.00",
+        "age": 20,
+        "totalYears": 4
       },
       {
         "name": "Rahul Chahar",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "1.00",
-        "soldPrice": "5.20"
+        "soldPrice": "5.20",
+        "age": 26,
+        "totalYears": 10
       },
       {
         "name": "Khaleel Ahmed",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.80"
+        "soldPrice": "4.80",
+        "age": 28,
+        "totalYears": 9
       },
       {
         "name": "MS Dhoni",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 44,
+        "totalYears": 19
       },
       {
         "name": "Anshul Kamboj",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "3.40"
+        "soldPrice": "3.40",
+        "age": 25,
+        "totalYears": 3
       },
       {
         "name": "Gurjapneet Singh",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.20"
+        "soldPrice": "2.20",
+        "age": 27
       },
       {
         "name": "Dewald Brevis",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.20"
+        "soldPrice": "2.20",
+        "age": 22,
+        "totalYears": 5
       },
       {
         "name": "Nathan Ellis",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 31,
+        "totalYears": 6
       },
       {
         "name": "Akeal Hosein",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 32
       },
       {
         "name": "Matt Henry",
@@ -119,7 +141,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.50"
+        "soldPrice": "1.50",
+        "age": 31,
+        "totalYears": 2
       },
       {
         "name": "Zak Foulkes",
@@ -133,49 +157,62 @@
         "type": "BAT",
         "isNew": true,
         "basePrice": "0.75",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 28,
+        "totalYears": 12
       },
       {
         "name": "Aman Khan",
         "type": "AR",
         "isNew": true,
         "basePrice": "0.30",
-        "soldPrice": "0.40"
+        "soldPrice": "0.40",
+        "age": 29,
+        "totalYears": 5
       },
       {
         "name": "Ayush Mhatre",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 18,
+        "totalYears": 2
       },
       {
         "name": "Ramakrishna Ghosh",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 28
       },
       {
         "name": "Urvil Patel",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 27,
+        "totalYears": 2
       },
       {
         "name": "Mukesh Choudhary",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 29,
+        "totalYears": 5
       },
       {
         "name": "Shreyas Gopal",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 32,
+        "totalYears": 13
       }
     ],
     "name": "Chennai Super Kings",
@@ -208,28 +245,36 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "16.50"
+        "soldPrice": "16.50",
+        "age": 31,
+        "totalYears": 13
       },
       {
         "name": "KL Rahul",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "14.00"
+        "soldPrice": "14.00",
+        "age": 33,
+        "totalYears": 14
       },
       {
         "name": "Kuldeep Yadav",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "13.25"
+        "soldPrice": "13.25",
+        "age": 31,
+        "totalYears": 11
       },
       {
         "name": "Mitchell Starc",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "11.75"
+        "soldPrice": "11.75",
+        "age": 35,
+        "totalYears": 13
       },
       {
         "name": "T Natarajan",
@@ -243,7 +288,9 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "10.00"
+        "soldPrice": "10.00",
+        "age": 25,
+        "totalYears": 5
       },
       {
         "name": "Auqib Nabi",
@@ -257,21 +304,27 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "8.00"
+        "soldPrice": "8.00",
+        "age": 32,
+        "totalYears": 4
       },
       {
         "name": "Nitish Rana",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.20"
+        "soldPrice": "4.20",
+        "age": 31,
+        "totalYears": 11
       },
       {
         "name": "Abishek Porel",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 23,
+        "totalYears": 4
       },
       {
         "name": "Pathum Nissanka",
@@ -285,7 +338,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "3.80"
+        "soldPrice": "3.80",
+        "age": 27,
+        "totalYears": 3
       },
       {
         "name": "Lungi Ngidi",
@@ -306,49 +361,63 @@
         "type": "BAT",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 36,
+        "totalYears": 15
       },
       {
         "name": "Sameer Rizvi",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.95"
+        "soldPrice": "0.95",
+        "age": 22,
+        "totalYears": 3
       },
       {
         "name": "Prithvi Shaw",
         "type": "BAT",
         "isNew": true,
         "basePrice": "0.75",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 26,
+        "totalYears": 9
       },
       {
         "name": "Dushmantha Chameera",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 33,
+        "totalYears": 5
       },
       {
         "name": "Vipraj Nigam",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.50"
+        "soldPrice": "0.50",
+        "age": 21,
+        "totalYears": 2
       },
       {
         "name": "Karun Nair",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.50"
+        "soldPrice": "0.50",
+        "age": 34,
+        "totalYears": 14
       },
       {
         "name": "Madhav Tiwari",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.40"
+        "soldPrice": "0.40",
+        "age": 22,
+        "totalYears": 2
       },
       {
         "name": "Sahil Parakh",
@@ -362,14 +431,16 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 24
       },
       {
         "name": "Ajay Mandal",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 29
       }
     ],
     "name": "Delhi Capitals",
@@ -402,56 +473,72 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "18.00"
+        "soldPrice": "18.00",
+        "age": 27,
+        "totalYears": 10
       },
       {
         "name": "Shubman Gill",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "16.50"
+        "soldPrice": "16.50",
+        "age": 26,
+        "totalYears": 9
       },
       {
         "name": "Jos Buttler",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "15.75"
+        "soldPrice": "15.75",
+        "age": 35,
+        "totalYears": 11
       },
       {
         "name": "Mohammed Siraj",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "12.25"
+        "soldPrice": "12.25",
+        "age": 31,
+        "totalYears": 10
       },
       {
         "name": "Kagiso Rabada",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "10.75"
+        "soldPrice": "10.75",
+        "age": 30,
+        "totalYears": 10
       },
       {
         "name": "Prasidh Krishna",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "9.50"
+        "soldPrice": "9.50",
+        "age": 29,
+        "totalYears": 9
       },
       {
         "name": "Sai Sudharsan",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "8.50"
+        "soldPrice": "8.50",
+        "age": 24,
+        "totalYears": 5
       },
       {
         "name": "Jason Holder",
         "type": "AR",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "7.00"
+        "soldPrice": "7.00",
+        "age": 34,
+        "totalYears": 14
       },
       {
         "name": "M Shahrukh Khan",
@@ -465,21 +552,27 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 32,
+        "totalYears": 13
       },
       {
         "name": "Washington Sundar",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "3.20"
+        "soldPrice": "3.20",
+        "age": 26,
+        "totalYears": 10
       },
       {
         "name": "Sai Kishore",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 29,
+        "totalYears": 5
       },
       {
         "name": "Tom Banton",
@@ -493,7 +586,9 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 29,
+        "totalYears": 6
       },
       {
         "name": "Gurnoor Brar",
@@ -514,56 +609,70 @@
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.30",
-        "soldPrice": "0.90"
+        "soldPrice": "0.90",
+        "age": 23
       },
       {
         "name": "Jayant Yadav",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 35,
+        "totalYears": 12
       },
       {
         "name": "Ishant Sharma",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 37,
+        "totalYears": 19
       },
       {
         "name": "Luke Wood",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.75",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 30,
+        "totalYears": 3
       },
       {
         "name": "Kumar Kushagra",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.65"
+        "soldPrice": "0.65",
+        "age": 21,
+        "totalYears": 3
       },
       {
         "name": "Nishant Sindhu",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 21
       },
       {
         "name": "Manav Suthar",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 23,
+        "totalYears": 3
       },
       {
         "name": "Anuj Rawat",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 26,
+        "totalYears": 6
       },
       {
         "name": "Prithvi Raj",
@@ -603,21 +712,27 @@
         "type": "BAT",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "25.20"
+        "soldPrice": "25.20",
+        "age": 26,
+        "totalYears": 4
       },
       {
         "name": "Matheesha Pathirana",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "18.00"
+        "soldPrice": "18.00",
+        "age": 22,
+        "totalYears": 5
       },
       {
         "name": "Rinku Singh",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "13.00"
+        "soldPrice": "13.00",
+        "age": 28,
+        "totalYears": 9
       },
       {
         "name": "Varun Chakravarthy",
@@ -631,28 +746,36 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "12.00"
+        "soldPrice": "12.00",
+        "age": 37,
+        "totalYears": 15
       },
       {
         "name": "Mustafizur Rahman",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "9.20"
+        "soldPrice": "9.20",
+        "age": 30,
+        "totalYears": 11
       },
       {
         "name": "Harshit Rana",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 23,
+        "totalYears": 5
       },
       {
         "name": "Ramandeep Singh",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 28,
+        "totalYears": 5
       },
       {
         "name": "Tejasvi Dahiya",
@@ -666,84 +789,107 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "3.00"
+        "soldPrice": "3.00",
+        "age": 20,
+        "totalYears": 3
       },
       {
         "name": "Rachin Ravindra",
         "type": "AR",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 26,
+        "totalYears": 3
       },
       {
         "name": "Finn Allen",
         "type": "BAT",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 26
       },
       {
         "name": "Vaibhav Arora",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.80"
+        "soldPrice": "1.80",
+        "age": 28,
+        "totalYears": 5
       },
       {
         "name": "Rovman Powell",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.50"
+        "soldPrice": "1.50",
+        "age": 32,
+        "totalYears": 5
       },
       {
         "name": "Tim Seifert",
         "type": "BAT",
         "isNew": true,
         "basePrice": "1.50",
-        "soldPrice": "1.50"
+        "soldPrice": "1.50",
+        "age": 31,
+        "totalYears": 6
       },
       {
         "name": "Ajinkya Rahane",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.50"
+        "soldPrice": "1.50",
+        "age": 37,
+        "totalYears": 19
       },
       {
         "name": "Akash Deep",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "1.00",
-        "soldPrice": "1.00"
+        "soldPrice": "1.00",
+        "age": 29,
+        "totalYears": 5
       },
       {
         "name": "Umran Malik",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 26,
+        "totalYears": 6
       },
       {
         "name": "Rahul Tripathi",
         "type": "BAT",
         "isNew": true,
         "basePrice": "0.75",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 34,
+        "totalYears": 10
       },
       {
         "name": "Manish Pandey",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 36,
+        "totalYears": 19
       },
       {
         "name": "Anukul Roy",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.40"
+        "soldPrice": "0.40",
+        "age": 27,
+        "totalYears": 8
       },
       {
         "name": "Daksh Kamra",
@@ -757,14 +903,18 @@
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.30",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 33,
+        "totalYears": 5
       },
       {
         "name": "Kartik Tyagi",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.30",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 25,
+        "totalYears": 7
       },
       {
         "name": "Sarthak Ranjan",
@@ -804,21 +954,27 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "27.00"
+        "soldPrice": "27.00",
+        "age": 28,
+        "totalYears": 11
       },
       {
         "name": "Nicholas Pooran",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "21.00"
+        "soldPrice": "21.00",
+        "age": 30,
+        "totalYears": 8
       },
       {
         "name": "Mayank Yadav",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "11.00"
+        "soldPrice": "11.00",
+        "age": 23,
+        "totalYears": 3
       },
       {
         "name": "Mohammed Shami",
@@ -832,42 +988,54 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "9.75"
+        "soldPrice": "9.75",
+        "age": 29,
+        "totalYears": 10
       },
       {
         "name": "Josh Inglis",
         "type": "BAT",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "8.60"
+        "soldPrice": "8.60",
+        "age": 30,
+        "totalYears": 2
       },
       {
         "name": "Abdul Samad",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.20"
+        "soldPrice": "4.20",
+        "age": 24,
+        "totalYears": 7
       },
       {
         "name": "Ayush Badoni",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 26,
+        "totalYears": 5
       },
       {
         "name": "Mohsin Khan",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 27,
+        "totalYears": 5
       },
       {
         "name": "Mitchell Marsh",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "3.40"
+        "soldPrice": "3.40",
+        "age": 34,
+        "totalYears": 17
       },
       {
         "name": "Mukul Choudhary",
@@ -895,21 +1063,27 @@
         "type": "AR",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 28,
+        "totalYears": 6
       },
       {
         "name": "Aiden Markram",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 31,
+        "totalYears": 6
       },
       {
         "name": "Anrich Nortje",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 32,
+        "totalYears": 7
       },
       {
         "name": "Naman Tiwari",
@@ -930,7 +1104,9 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 27,
+        "totalYears": 2
       },
       {
         "name": "Digvesh Rathi",
@@ -944,35 +1120,45 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 20,
+        "totalYears": 3
       },
       {
         "name": "Prince Yadav",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 24,
+        "totalYears": 2
       },
       {
         "name": "Akash Singh",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 23,
+        "totalYears": 6
       },
       {
         "name": "Arjun Tendulkar",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 26,
+        "totalYears": 4
       },
       {
         "name": "Himmat Singh",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 29,
+        "totalYears": 2
       }
     ],
     "name": "Lucknow Super Giants",
@@ -1005,14 +1191,18 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "18.00"
+        "soldPrice": "18.00",
+        "age": 32,
+        "totalYears": 14
       },
       {
         "name": "Hardik Pandya",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "16.35"
+        "soldPrice": "16.35",
+        "age": 32,
+        "totalYears": 12
       },
       {
         "name": "Suryakumar Yadav",
@@ -1026,21 +1216,27 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "16.30"
+        "soldPrice": "16.30",
+        "age": 38,
+        "totalYears": 19
       },
       {
         "name": "Trent Boult",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "12.50"
+        "soldPrice": "12.50",
+        "age": 36,
+        "totalYears": 12
       },
       {
         "name": "Deepak Chahar",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "9.25"
+        "soldPrice": "9.25",
+        "age": 33,
+        "totalYears": 11
       },
       {
         "name": "Tilak Varma",
@@ -1054,14 +1250,18 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "5.25"
+        "soldPrice": "5.25",
+        "age": 25,
+        "totalYears": 3
       },
       {
         "name": "Will Jacks",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "5.25"
+        "soldPrice": "5.25",
+        "age": 27,
+        "totalYears": 3
       },
       {
         "name": "AM Ghazanfar",
@@ -1075,49 +1275,63 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.60"
+        "soldPrice": "2.60",
+        "age": 27,
+        "totalYears": 8
       },
       {
         "name": "Mitchell Santner",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 33,
+        "totalYears": 8
       },
       {
         "name": "Shardul Thakur",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 34,
+        "totalYears": 12
       },
       {
         "name": "Ryan Rickelton",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.00"
+        "soldPrice": "1.00",
+        "age": 29,
+        "totalYears": 2
       },
       {
         "name": "Quinton de Kock",
         "type": "BAT",
         "isNew": true,
         "basePrice": "1.00",
-        "soldPrice": "1.00"
+        "soldPrice": "1.00",
+        "age": 32,
+        "totalYears": 14
       },
       {
         "name": "Corbin Bosch",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 31,
+        "totalYears": 2
       },
       {
         "name": "Robin Minz",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.65"
+        "soldPrice": "0.65",
+        "age": 23,
+        "totalYears": 2
       },
       {
         "name": "Mohd Izhar",
@@ -1145,7 +1359,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 24,
+        "totalYears": 2
       },
       {
         "name": "Atharva Ankolekar",
@@ -1159,14 +1375,17 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 32
       },
       {
         "name": "Mayank Markande",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 28,
+        "totalYears": 9
       },
       {
         "name": "Mayank Rawat",
@@ -1206,42 +1425,54 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "26.75"
+        "soldPrice": "26.75",
+        "age": 31,
+        "totalYears": 12
       },
       {
         "name": "Arshdeep Singh",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "18.00"
+        "soldPrice": "18.00",
+        "age": 26,
+        "totalYears": 8
       },
       {
         "name": "Yuzvendra Chahal",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "18.00"
+        "soldPrice": "18.00",
+        "age": 35,
+        "totalYears": 14
       },
       {
         "name": "Marcus Stoinis",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "11.00"
+        "soldPrice": "11.00",
+        "age": 36,
+        "totalYears": 11
       },
       {
         "name": "Marco Jansen",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "7.00"
+        "soldPrice": "7.00",
+        "age": 25,
+        "totalYears": 6
       },
       {
         "name": "Shashank Singh",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "5.50"
+        "soldPrice": "5.50",
+        "age": 34,
+        "totalYears": 5
       },
       {
         "name": "Ben Dwarshuis",
@@ -1255,21 +1486,27 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.20"
+        "soldPrice": "4.20",
+        "age": 25,
+        "totalYears": 4
       },
       {
         "name": "Prabhsimran Singh",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 25,
+        "totalYears": 8
       },
       {
         "name": "Priyansh Arya",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "3.80"
+        "soldPrice": "3.80",
+        "age": 24,
+        "totalYears": 2
       },
       {
         "name": "Mitchell Owen",
@@ -1290,14 +1527,18 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.40"
+        "soldPrice": "2.40",
+        "age": 25,
+        "totalYears": 3
       },
       {
         "name": "Lockie Ferguson",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 34,
+        "totalYears": 10
       },
       {
         "name": "Vijaykumar Vyshak",
@@ -1311,28 +1552,36 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.60"
+        "soldPrice": "1.60",
+        "age": 26,
+        "totalYears": 4
       },
       {
         "name": "Harpreet Brar",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.50"
+        "soldPrice": "1.50",
+        "age": 30,
+        "totalYears": 8
       },
       {
         "name": "Vishnu Vinod",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.95"
+        "soldPrice": "0.95",
+        "age": 32,
+        "totalYears": 10
       },
       {
         "name": "Xavier Bartlett",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.80"
+        "soldPrice": "0.80",
+        "age": 26,
+        "totalYears": 2
       },
       {
         "name": "Vishal Nishad",
@@ -1346,21 +1595,26 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 22,
+        "totalYears": 2
       },
       {
         "name": "Pyla Avinash",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 25
       },
       {
         "name": "Musheer Khan",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 20,
+        "totalYears": 2
       },
       {
         "name": "Harnoor Singh",
@@ -1407,105 +1661,134 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "18.00"
+        "soldPrice": "18.00",
+        "age": 23,
+        "totalYears": 7
       },
       {
         "name": "Dhruv Jurel",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "14.00"
+        "soldPrice": "14.00",
+        "age": 24,
+        "totalYears": 4
       },
       {
         "name": "Riyan Parag",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "14.00"
+        "soldPrice": "14.00",
+        "age": 24,
+        "totalYears": 8
       },
       {
         "name": "Ravindra Jadeja",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "14.00"
+        "soldPrice": "14.00",
+        "age": 37,
+        "totalYears": 19
       },
       {
         "name": "Jofra Archer",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "12.50"
+        "soldPrice": "12.50",
+        "age": 30,
+        "totalYears": 9
       },
       {
         "name": "Shimron Hetmyer",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "11.00"
+        "soldPrice": "11.00",
+        "age": 28,
+        "totalYears": 8
       },
       {
         "name": "Ravi Bishnoi",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "7.20"
+        "soldPrice": "7.20",
+        "age": 25,
+        "totalYears": 7
       },
       {
         "name": "Tushar Deshpande",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "6.50"
+        "soldPrice": "6.50",
+        "age": 30,
+        "totalYears": 7
       },
       {
         "name": "Sandeep Sharma",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "4.00"
+        "soldPrice": "4.00",
+        "age": 32,
+        "totalYears": 14
       },
       {
         "name": "Nandre Burger",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "3.50"
+        "soldPrice": "3.50",
+        "age": 30,
+        "totalYears": 3
       },
       {
         "name": "Sam Curran",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.40"
+        "soldPrice": "2.40",
+        "age": 27,
+        "totalYears": 8
       },
       {
         "name": "Adam Milne",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "2.40"
+        "soldPrice": "2.40",
+        "age": 33
       },
       {
         "name": "Kwena Maphaka",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.50"
+        "soldPrice": "1.50",
+        "age": 19,
+        "totalYears": 3
       },
       {
         "name": "Vaibhav Suryavanshi",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.10"
+        "soldPrice": "1.10",
+        "age": 14,
+        "totalYears": 2
       },
       {
         "name": "Donovan Ferreira",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.00"
+        "soldPrice": "1.00",
+        "age": 27,
+        "totalYears": 3
       },
       {
         "name": "Ravi Singh",
@@ -1519,21 +1802,26 @@
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.30",
-        "soldPrice": "0.90"
+        "soldPrice": "0.90",
+        "age": 24
       },
       {
         "name": "Shubham Dubey",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.80"
+        "soldPrice": "0.80",
+        "age": 31,
+        "totalYears": 3
       },
       {
         "name": "Kuldeep Sen",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.75",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 29,
+        "totalYears": 5
       },
       {
         "name": "Yudhvir Singh",
@@ -1561,7 +1849,9 @@
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.30",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 24,
+        "totalYears": 2
       },
       {
         "name": "Aman Rao",
@@ -1575,7 +1865,9 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 19,
+        "totalYears": 2
       }
     ],
     "name": "Rajasthan Royals",
@@ -1608,49 +1900,63 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "21.00"
+        "soldPrice": "21.00",
+        "age": 37,
+        "totalYears": 19
       },
       {
         "name": "Josh Hazlewood",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "12.50"
+        "soldPrice": "12.50",
+        "age": 34,
+        "totalYears": 7
       },
       {
         "name": "Phil Salt",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "11.50"
+        "soldPrice": "11.50",
+        "age": 29,
+        "totalYears": 4
       },
       {
         "name": "Rajat Patidar",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "11.00"
+        "soldPrice": "11.00",
+        "age": 32,
+        "totalYears": 6
       },
       {
         "name": "Jitesh Sharma",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "11.00"
+        "soldPrice": "11.00",
+        "age": 32,
+        "totalYears": 5
       },
       {
         "name": "Bhuvneshwar Kumar",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "10.75"
+        "soldPrice": "10.75",
+        "age": 35,
+        "totalYears": 16
       },
       {
         "name": "Venkatesh Iyer",
         "type": "AR",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "7.00"
+        "soldPrice": "7.00",
+        "age": 30,
+        "totalYears": 6
       },
       {
         "name": "Rasikh Salam",
@@ -1664,7 +1970,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "5.75"
+        "soldPrice": "5.75",
+        "age": 34,
+        "totalYears": 11
       },
       {
         "name": "Mangesh Yadav",
@@ -1678,35 +1986,45 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "5.00"
+        "soldPrice": "5.00",
+        "age": 28,
+        "totalYears": 5
       },
       {
         "name": "Tim David",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "3.00"
+        "soldPrice": "3.00",
+        "age": 29,
+        "totalYears": 6
       },
       {
         "name": "Suyash Sharma",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.60"
+        "soldPrice": "2.60",
+        "age": 22,
+        "totalYears": 4
       },
       {
         "name": "Jacob Bethell",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.60"
+        "soldPrice": "2.60",
+        "age": 22,
+        "totalYears": 2
       },
       {
         "name": "Devdutt Padikkal",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.00"
+        "soldPrice": "2.00",
+        "age": 25,
+        "totalYears": 7
       },
       {
         "name": "Jacob Duffy",
@@ -1720,14 +2038,18 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.60"
+        "soldPrice": "1.60",
+        "age": 31,
+        "totalYears": 3
       },
       {
         "name": "Romario Shepherd",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.50"
+        "soldPrice": "1.50",
+        "age": 31,
+        "totalYears": 5
       },
       {
         "name": "Jordan Cox",
@@ -1741,7 +2063,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.50"
+        "soldPrice": "0.50",
+        "age": 34,
+        "totalYears": 11
       },
       {
         "name": "Satvik Deswal",
@@ -1755,14 +2079,16 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 28
       },
       {
         "name": "Vicky Ostwal",
         "type": "AR",
         "isNew": true,
         "basePrice": "0.30",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 23
       },
       {
         "name": "Kanishk Chouhan",
@@ -1809,56 +2135,72 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "23.00"
+        "soldPrice": "23.00",
+        "age": 34,
+        "totalYears": 9
       },
       {
         "name": "Pat Cummins",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "18.00"
+        "soldPrice": "18.00",
+        "age": 32,
+        "totalYears": 13
       },
       {
         "name": "Abhishek Sharma",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "14.00"
+        "soldPrice": "14.00",
+        "age": 25,
+        "totalYears": 9
       },
       {
         "name": "Travis Head",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "14.00"
+        "soldPrice": "14.00",
+        "age": 31,
+        "totalYears": 11
       },
       {
         "name": "Liam Livingstone",
         "type": "AR",
         "isNew": true,
         "basePrice": "2.00",
-        "soldPrice": "13.00"
+        "soldPrice": "13.00",
+        "age": 32,
+        "totalYears": 8
       },
       {
         "name": "Ishan Kishan",
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "11.25"
+        "soldPrice": "11.25",
+        "age": 27,
+        "totalYears": 11
       },
       {
         "name": "Harshal Patel",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "8.00"
+        "soldPrice": "8.00",
+        "age": 35,
+        "totalYears": 15
       },
       {
         "name": "Nitish Kumar Reddy",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "6.00"
+        "soldPrice": "6.00",
+        "age": 22,
+        "totalYears": 4
       },
       {
         "name": "Jack Edwards",
@@ -1879,42 +2221,53 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.20"
+        "soldPrice": "1.20",
+        "age": 24,
+        "totalYears": 2
       },
       {
         "name": "Brydon Carse",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.00"
+        "soldPrice": "1.00",
+        "age": 30
       },
       {
         "name": "Jaydev Unadkat",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.00"
+        "soldPrice": "1.00",
+        "age": 34,
+        "totalYears": 17
       },
       {
         "name": "Shivam Mavi",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.75",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 27,
+        "totalYears": 9
       },
       {
         "name": "Kamindu Mendis",
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 27,
+        "totalYears": 2
       },
       {
         "name": "Zeeshan Ansari",
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.40"
+        "soldPrice": "0.40",
+        "age": 26,
+        "totalYears": 2
       },
       {
         "name": "Onkar Tarmale",
@@ -1949,14 +2302,17 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 23,
+        "totalYears": 2
       },
       {
         "name": "Sakib Hussain",
         "type": "BOWL",
         "isNew": true,
         "basePrice": "0.30",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 21
       },
       {
         "name": "Ravichandran Smaran",
@@ -1977,7 +2333,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 23,
+        "totalYears": 2
       }
     ],
     "name": "Sunrisers Hyderabad",

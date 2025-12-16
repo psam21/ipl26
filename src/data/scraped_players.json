@@ -3,31 +3,51 @@
     "name": "MS Dhoni",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/57.png",
-    "profileUrl": "https://www.iplt20.com/players/ms-dhoni/1 "
+    "profileUrl": "https://www.iplt20.com/players/ms-dhoni/1 ",
+    "dob": "07 July 1981",
+    "age": 44,
+    "iplDebut": "2008",
+    "totalYears": 19
   },
   {
     "name": "Sanju Samson",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/sanju-samson/258 "
+    "profileUrl": "https://www.iplt20.com/players/sanju-samson/258 ",
+    "dob": "11 November 1994",
+    "age": 31,
+    "iplDebut": "2013",
+    "totalYears": 14
   },
   {
     "name": "Ruturaj Gaikwad",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/102.png",
-    "profileUrl": "https://www.iplt20.com/players/ruturaj-gaikwad/5443 "
+    "profileUrl": "https://www.iplt20.com/players/ruturaj-gaikwad/5443 ",
+    "dob": "31 January 1997",
+    "age": 28,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Dewald Brevis",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/797.png",
-    "profileUrl": "https://www.iplt20.com/players/dewald-brevis/20593 "
+    "profileUrl": "https://www.iplt20.com/players/dewald-brevis/20593 ",
+    "dob": "29 April 2003",
+    "age": 22,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Ayush Mhatre",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3497.png",
-    "profileUrl": "https://www.iplt20.com/players/ayush-mhatre/22377 "
+    "profileUrl": "https://www.iplt20.com/players/ayush-mhatre/22377 ",
+    "dob": "16 July 2007",
+    "age": 18,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Kartik Sharma",
@@ -38,31 +58,50 @@
     "name": "Sarfaraz Khan",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/sarfaraz-khan/1564 "
+    "profileUrl": "https://www.iplt20.com/players/sarfaraz-khan/1564 ",
+    "dob": "22 October 1997",
+    "age": 28,
+    "iplDebut": "2015",
+    "totalYears": 12
   },
   {
     "name": "Urvil Patel",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1486.png",
-    "profileUrl": "https://www.iplt20.com/players/urvil-patel/5653 "
+    "profileUrl": "https://www.iplt20.com/players/urvil-patel/5653 ",
+    "dob": "17 October 1998",
+    "age": 27,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Anshul Kamboj",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3106.png",
-    "profileUrl": "https://www.iplt20.com/players/anshul-kamboj/20702 "
+    "profileUrl": "https://www.iplt20.com/players/anshul-kamboj/20702 ",
+    "dob": "06 December 2000",
+    "age": 25,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Jamie Overton",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1216.png",
-    "profileUrl": "https://www.iplt20.com/players/jamie-overton/22109 "
+    "profileUrl": "https://www.iplt20.com/players/jamie-overton/22109 ",
+    "dob": "10 April 1994",
+    "age": 31,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Ramakrishna Ghosh",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3559.png",
-    "profileUrl": "https://www.iplt20.com/players/ramakrishna-ghosh/22153 "
+    "profileUrl": "https://www.iplt20.com/players/ramakrishna-ghosh/22153 ",
+    "dob": "28 August 1997",
+    "age": 28,
+    "iplDebut": "-"
   },
   {
     "name": "Prashant Veer",
@@ -73,13 +112,21 @@
     "name": "Matthew William Short",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/matthew-william-short/2032 "
+    "profileUrl": "https://www.iplt20.com/players/matthew-william-short/2032 ",
+    "dob": "08 November 1995",
+    "age": 30,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Aman Khan",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/aman-khan/20581 "
+    "profileUrl": "https://www.iplt20.com/players/aman-khan/20581 ",
+    "dob": "23 November 1996",
+    "age": 29,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Zak Foulkes",
@@ -90,49 +137,79 @@
     "name": "Shivam Dube",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/211.png",
-    "profileUrl": "https://www.iplt20.com/players/shivam-dube/5431 "
+    "profileUrl": "https://www.iplt20.com/players/shivam-dube/5431 ",
+    "dob": "26 June 1993",
+    "age": 32,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Khaleel Ahmed",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/8.png",
-    "profileUrl": "https://www.iplt20.com/players/khaleel-ahmed/2964 "
+    "profileUrl": "https://www.iplt20.com/players/khaleel-ahmed/2964 ",
+    "dob": "05 December 1997",
+    "age": 28,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Noor Ahmad",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/975.png",
-    "profileUrl": "https://www.iplt20.com/players/noor-ahmad/20590 "
+    "profileUrl": "https://www.iplt20.com/players/noor-ahmad/20590 ",
+    "dob": "03 January 2005",
+    "age": 20,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Mukesh Choudhary",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/970.png",
-    "profileUrl": "https://www.iplt20.com/players/mukesh-choudhary/20575 "
+    "profileUrl": "https://www.iplt20.com/players/mukesh-choudhary/20575 ",
+    "dob": "06 July 1996",
+    "age": 29,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Nathan Ellis",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/633.png",
-    "profileUrl": "https://www.iplt20.com/players/nathan-ellis/17118 "
+    "profileUrl": "https://www.iplt20.com/players/nathan-ellis/17118 ",
+    "dob": "22 September 1994",
+    "age": 31,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Shreyas Gopal",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/192.png",
-    "profileUrl": "https://www.iplt20.com/players/shreyas-gopal/20696 "
+    "profileUrl": "https://www.iplt20.com/players/shreyas-gopal/20696 ",
+    "dob": "04 September 1993",
+    "age": 32,
+    "iplDebut": "2014",
+    "totalYears": 13
   },
   {
     "name": "Gurjapneet Singh",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2256.png",
-    "profileUrl": "https://www.iplt20.com/players/gurjapneet-singh/22032 "
+    "profileUrl": "https://www.iplt20.com/players/gurjapneet-singh/22032 ",
+    "dob": "08 November 1998",
+    "age": 27,
+    "iplDebut": "-"
   },
   {
     "name": "Akeal Hosein",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/akeal-hosein/5608 "
+    "profileUrl": "https://www.iplt20.com/players/akeal-hosein/5608 ",
+    "dob": "25 April 1993",
+    "age": 32,
+    "iplDebut": "-"
   },
   {
     "name": "Matt Henry",
@@ -143,25 +220,41 @@
     "name": "Rahul Chahar",
     "teamCode": "CSK",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/rahul-chahar/3763 "
+    "profileUrl": "https://www.iplt20.com/players/rahul-chahar/3763 ",
+    "dob": "04 August 1999",
+    "age": 26,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "KL Rahul",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/19.png",
-    "profileUrl": "https://www.iplt20.com/players/kl-rahul/1125 "
+    "profileUrl": "https://www.iplt20.com/players/kl-rahul/1125 ",
+    "dob": "18 April 1992",
+    "age": 33,
+    "iplDebut": "2013",
+    "totalYears": 14
   },
   {
     "name": "Karun Nair",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/131.png",
-    "profileUrl": "https://www.iplt20.com/players/karun-nair/276 "
+    "profileUrl": "https://www.iplt20.com/players/karun-nair/276 ",
+    "dob": "06 December 1991",
+    "age": 34,
+    "iplDebut": "2013",
+    "totalYears": 14
   },
   {
     "name": "David Miller",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/david-miller/187 "
+    "profileUrl": "https://www.iplt20.com/players/david-miller/187 ",
+    "dob": "10 June 1989",
+    "age": 36,
+    "iplDebut": "2012",
+    "totalYears": 15
   },
   {
     "name": "Ben Duckett",
@@ -182,61 +275,99 @@
     "name": "Prithvi Shaw",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/51.png",
-    "profileUrl": "https://www.iplt20.com/players/prithvi-shaw/3764 "
+    "profileUrl": "https://www.iplt20.com/players/prithvi-shaw/3764 ",
+    "dob": "09 November 1999",
+    "age": 26,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Abishek Porel",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1580.png",
-    "profileUrl": "https://www.iplt20.com/players/abishek-porel/33333 "
+    "profileUrl": "https://www.iplt20.com/players/abishek-porel/33333 ",
+    "dob": "17 October 2002",
+    "age": 23,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Tristan Stubbs",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1017.png",
-    "profileUrl": "https://www.iplt20.com/players/tristan-stubbs/20631 "
+    "profileUrl": "https://www.iplt20.com/players/tristan-stubbs/20631 ",
+    "dob": "14 August 2000",
+    "age": 25,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Axar Patel",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/110.png",
-    "profileUrl": "https://www.iplt20.com/players/axar-patel/1113 "
+    "profileUrl": "https://www.iplt20.com/players/axar-patel/1113 ",
+    "dob": "20 January 1994",
+    "age": 31,
+    "iplDebut": "2014",
+    "totalYears": 13
   },
   {
     "name": "Sameer Rizvi",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1229.png",
-    "profileUrl": "https://www.iplt20.com/players/sameer-rizvi/20689 "
+    "profileUrl": "https://www.iplt20.com/players/sameer-rizvi/20689 ",
+    "dob": "06 December 2003",
+    "age": 22,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Ashutosh Sharma",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3109.png",
-    "profileUrl": "https://www.iplt20.com/players/ashutosh-sharma/20703 "
+    "profileUrl": "https://www.iplt20.com/players/ashutosh-sharma/20703 ",
+    "dob": "15 September 1998",
+    "age": 27,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Vipraj Nigam",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3560.png",
-    "profileUrl": "https://www.iplt20.com/players/vipraj-nigam/22053 "
+    "profileUrl": "https://www.iplt20.com/players/vipraj-nigam/22053 ",
+    "dob": "28 July 2004",
+    "age": 21,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Ajay Mandal",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1931.png",
-    "profileUrl": "https://www.iplt20.com/players/ajay-mandal/5811 "
+    "profileUrl": "https://www.iplt20.com/players/ajay-mandal/5811 ",
+    "dob": "25 February 1996",
+    "age": 29,
+    "iplDebut": "-"
   },
   {
     "name": "Tripurana Vijay",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3563.png",
-    "profileUrl": "https://www.iplt20.com/players/tripurana-vijay/22252 "
+    "profileUrl": "https://www.iplt20.com/players/tripurana-vijay/22252 ",
+    "dob": "05 September 2001",
+    "age": 24,
+    "iplDebut": "-"
   },
   {
     "name": "Madhav Tiwari",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3561.png",
-    "profileUrl": "https://www.iplt20.com/players/madhav-tiwari/22259 "
+    "profileUrl": "https://www.iplt20.com/players/madhav-tiwari/22259 ",
+    "dob": "28 September 2003",
+    "age": 22,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Auqib Dar",
@@ -247,73 +378,121 @@
     "name": "Nitish Rana",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/nitish-rana/2738 "
+    "profileUrl": "https://www.iplt20.com/players/nitish-rana/2738 ",
+    "dob": "27 December 1993",
+    "age": 31,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Mitchell Starc",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/31.png",
-    "profileUrl": "https://www.iplt20.com/players/mitchell-starc/490 "
+    "profileUrl": "https://www.iplt20.com/players/mitchell-starc/490 ",
+    "dob": "30 January 1990",
+    "age": 35,
+    "iplDebut": "2014",
+    "totalYears": 13
   },
   {
     "name": "T. Natarajan",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/224.png",
-    "profileUrl": "https://www.iplt20.com/players/t-natarajan/3831 "
+    "profileUrl": "https://www.iplt20.com/players/t-natarajan/3831 ",
+    "dob": "27 May 1991",
+    "age": 34,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "Mukesh Kumar",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1462.png",
-    "profileUrl": "https://www.iplt20.com/players/mukesh-kumar/5622 "
+    "profileUrl": "https://www.iplt20.com/players/mukesh-kumar/5622 ",
+    "dob": "12 October 1993",
+    "age": 32,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Dushmantha Chameera",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/608.png",
-    "profileUrl": "https://www.iplt20.com/players/dushmantha-chameera/817 "
+    "profileUrl": "https://www.iplt20.com/players/dushmantha-chameera/817 ",
+    "dob": "11 January 1992",
+    "age": 33,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Lungisani Ngidi",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2023/99.png",
-    "profileUrl": "https://www.iplt20.com/players/lungisani-ngidi/3746 "
+    "profileUrl": "https://www.iplt20.com/players/lungisani-ngidi/3746 ",
+    "dob": "29 March 1996",
+    "age": 29,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Kyle Jamieson",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/kyle-jamieson/1616 "
+    "profileUrl": "https://www.iplt20.com/players/kyle-jamieson/1616 ",
+    "dob": "30 December 1994",
+    "age": 30,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Kuldeep Yadav",
     "teamCode": "DC",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/14.png",
-    "profileUrl": "https://www.iplt20.com/players/kuldeep-yadav/261 "
+    "profileUrl": "https://www.iplt20.com/players/kuldeep-yadav/261 ",
+    "dob": "14 December 1994",
+    "age": 31,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Shubman Gill",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/62.png",
-    "profileUrl": "https://www.iplt20.com/players/shubman-gill/3761 "
+    "profileUrl": "https://www.iplt20.com/players/shubman-gill/3761 ",
+    "dob": "08 September 1999",
+    "age": 26,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Jos Buttler",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/182.png",
-    "profileUrl": "https://www.iplt20.com/players/jos-buttler/509 "
+    "profileUrl": "https://www.iplt20.com/players/jos-buttler/509 ",
+    "dob": "08 September 1990",
+    "age": 35,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Kumar Kushagra",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3101.png",
-    "profileUrl": "https://www.iplt20.com/players/kumar-kushagra/20694 "
+    "profileUrl": "https://www.iplt20.com/players/kumar-kushagra/20694 ",
+    "dob": "23 October 2004",
+    "age": 21,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Anuj Rawat",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/534.png",
-    "profileUrl": "https://www.iplt20.com/players/anuj-rawat/10788 "
+    "profileUrl": "https://www.iplt20.com/players/anuj-rawat/10788 ",
+    "dob": "17 October 1999",
+    "age": 26,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Tom Banton",
@@ -324,97 +503,159 @@
     "name": "Glenn Phillips",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/635.png",
-    "profileUrl": "https://www.iplt20.com/players/glenn-phillips/3027 "
+    "profileUrl": "https://www.iplt20.com/players/glenn-phillips/3027 ",
+    "dob": "06 December 1996",
+    "age": 29,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Nishant Sindhu",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/791.png",
-    "profileUrl": "https://www.iplt20.com/players/nishant-sindhu/5615 "
+    "profileUrl": "https://www.iplt20.com/players/nishant-sindhu/5615 ",
+    "dob": "09 April 2004",
+    "age": 21,
+    "iplDebut": "-"
   },
   {
     "name": "Washington Sundar",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/20.png",
-    "profileUrl": "https://www.iplt20.com/players/washington-sundar/2973 "
+    "profileUrl": "https://www.iplt20.com/players/washington-sundar/2973 ",
+    "dob": "05 October 1999",
+    "age": 26,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "Mohd. Arshad Khan",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/988.png",
-    "profileUrl": "https://www.iplt20.com/players/mohd-arshad-khan/20599 "
+    "profileUrl": "https://www.iplt20.com/players/mohd-arshad-khan/20599 ",
+    "dob": "20 December 1997",
+    "age": 27,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Sai Kishore",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/544.png",
-    "profileUrl": "https://www.iplt20.com/players/sai-kishore/7123 "
+    "profileUrl": "https://www.iplt20.com/players/sai-kishore/7123 ",
+    "dob": "06 November 1996",
+    "age": 29,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Jayant Yadav",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/165.png",
-    "profileUrl": "https://www.iplt20.com/players/jayant-yadav/1740 "
+    "profileUrl": "https://www.iplt20.com/players/jayant-yadav/1740 ",
+    "dob": "22 January 1990",
+    "age": 35,
+    "iplDebut": "2015",
+    "totalYears": 12
   },
   {
     "name": "Jason Holder",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/jason-holder/1075 "
+    "profileUrl": "https://www.iplt20.com/players/jason-holder/1075 ",
+    "dob": "05 November 1991",
+    "age": 34,
+    "iplDebut": "2013",
+    "totalYears": 14
   },
   {
     "name": "Sai Sudharsan",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/976.png",
-    "profileUrl": "https://www.iplt20.com/players/sai-sudharsan/20592 "
+    "profileUrl": "https://www.iplt20.com/players/sai-sudharsan/20592 ",
+    "dob": "15 October 2001",
+    "age": 24,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Shahrukh Khan",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/590.png",
-    "profileUrl": "https://www.iplt20.com/players/shahrukh-khan/7779 "
+    "profileUrl": "https://www.iplt20.com/players/shahrukh-khan/7779 ",
+    "dob": "27 May 1995",
+    "age": 30,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Kagiso Rabada",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/116.png",
-    "profileUrl": "https://www.iplt20.com/players/kagiso-rabada/1664 "
+    "profileUrl": "https://www.iplt20.com/players/kagiso-rabada/1664 ",
+    "dob": "25 May 1995",
+    "age": 30,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "Mohammed Siraj",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/63.png",
-    "profileUrl": "https://www.iplt20.com/players/mohammed-siraj/3840 "
+    "profileUrl": "https://www.iplt20.com/players/mohammed-siraj/3840 ",
+    "dob": "13 March 1994",
+    "age": 31,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "Prasidh Krishna",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/150.png",
-    "profileUrl": "https://www.iplt20.com/players/prasidh-krishna/5105 "
+    "profileUrl": "https://www.iplt20.com/players/prasidh-krishna/5105 ",
+    "dob": "19 February 1996",
+    "age": 29,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Manav Suthar",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2443.png",
-    "profileUrl": "https://www.iplt20.com/players/manav-suthar/20692 "
+    "profileUrl": "https://www.iplt20.com/players/manav-suthar/20692 ",
+    "dob": "03 August 2002",
+    "age": 23,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Gurnoor Singh Brar",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1231.png",
-    "profileUrl": "https://www.iplt20.com/players/gurnoor-singh-brar/1094 "
+    "profileUrl": "https://www.iplt20.com/players/gurnoor-singh-brar/1094 ",
+    "dob": "25 May 2000",
+    "age": 25,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Ishant Sharma",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/50.png",
-    "profileUrl": "https://www.iplt20.com/players/ishant-sharma/38 "
+    "profileUrl": "https://www.iplt20.com/players/ishant-sharma/38 ",
+    "dob": "02 September 1988",
+    "age": 37,
+    "iplDebut": "2008",
+    "totalYears": 19
   },
   {
     "name": "Ashok Sharma",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/ashok-sharma/20584 "
+    "profileUrl": "https://www.iplt20.com/players/ashok-sharma/20584 ",
+    "dob": "17 June 2002",
+    "age": 23,
+    "iplDebut": "-"
   },
   {
     "name": "Prithvi Raj Yarra",
@@ -425,55 +666,90 @@
     "name": "Luke Wood",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/luke-wood/20721 "
+    "profileUrl": "https://www.iplt20.com/players/luke-wood/20721 ",
+    "dob": "02 August 1995",
+    "age": 30,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Rahul Tewatia",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/120.png",
-    "profileUrl": "https://www.iplt20.com/players/rahul-tewatia/1749 "
+    "profileUrl": "https://www.iplt20.com/players/rahul-tewatia/1749 ",
+    "dob": "20 May 1993",
+    "age": 32,
+    "iplDebut": "2014",
+    "totalYears": 13
   },
   {
     "name": "Rashid Khan",
     "teamCode": "GT",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/218.png",
-    "profileUrl": "https://www.iplt20.com/players/rashid-khan/2885 "
+    "profileUrl": "https://www.iplt20.com/players/rashid-khan/2885 ",
+    "dob": "20 September 1998",
+    "age": 27,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "Ajinkya Rahane",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/44.png",
-    "profileUrl": "https://www.iplt20.com/players/ajinkya-rahane/135 "
+    "profileUrl": "https://www.iplt20.com/players/ajinkya-rahane/135 ",
+    "dob": "06 June 1988",
+    "age": 37,
+    "iplDebut": "2008",
+    "totalYears": 19
   },
   {
     "name": "Rinku Singh",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/152.png",
-    "profileUrl": "https://www.iplt20.com/players/rinku-singh/3830 "
+    "profileUrl": "https://www.iplt20.com/players/rinku-singh/3830 ",
+    "dob": "12 October 1997",
+    "age": 28,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Angkrish Raghuvanshi",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/787.png",
-    "profileUrl": "https://www.iplt20.com/players/angkrish-raghuvanshi/20690 "
+    "profileUrl": "https://www.iplt20.com/players/angkrish-raghuvanshi/20690 ",
+    "dob": "05 June 2005",
+    "age": 20,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Manish Pandey",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/16.png",
-    "profileUrl": "https://www.iplt20.com/players/manish-pandey/123 "
+    "profileUrl": "https://www.iplt20.com/players/manish-pandey/123 ",
+    "dob": "10 September 1989",
+    "age": 36,
+    "iplDebut": "2008",
+    "totalYears": 19
   },
   {
     "name": "Cameron Green",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/cameron-green/5602 "
+    "profileUrl": "https://www.iplt20.com/players/cameron-green/5602 ",
+    "dob": "03 June 1999",
+    "age": 26,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Finn Allen",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/finn-allen/3020 "
+    "profileUrl": "https://www.iplt20.com/players/finn-allen/3020 ",
+    "dob": "22 April 1999",
+    "age": 26,
+    "iplDebut": "-"
   },
   {
     "name": "Tejasvi Singh",
@@ -484,25 +760,41 @@
     "name": "Rahul Tripathi",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/rahul-tripathi/3838 "
+    "profileUrl": "https://www.iplt20.com/players/rahul-tripathi/3838 ",
+    "dob": "02 March 1991",
+    "age": 34,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "Tim Seifert",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/tim-seifert/1619 "
+    "profileUrl": "https://www.iplt20.com/players/tim-seifert/1619 ",
+    "dob": "14 December 1994",
+    "age": 31,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Rovman Powell",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/329.png",
-    "profileUrl": "https://www.iplt20.com/players/rovman-powell/3333 "
+    "profileUrl": "https://www.iplt20.com/players/rovman-powell/3333 ",
+    "dob": "23 July 1993",
+    "age": 32,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Anukul Roy",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/160.png",
-    "profileUrl": "https://www.iplt20.com/players/anukul-roy/3774 "
+    "profileUrl": "https://www.iplt20.com/players/anukul-roy/3774 ",
+    "dob": "30 November 1998",
+    "age": 27,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Sarthak Ranjan",
@@ -518,97 +810,161 @@
     "name": "Rachin Ravindra",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/rachin-ravindra/20684 "
+    "profileUrl": "https://www.iplt20.com/players/rachin-ravindra/20684 ",
+    "dob": "18 November 1999",
+    "age": 26,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Ramandeep Singh",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/991.png",
-    "profileUrl": "https://www.iplt20.com/players/ramandeep-singh/20595 "
+    "profileUrl": "https://www.iplt20.com/players/ramandeep-singh/20595 ",
+    "dob": "13 April 1997",
+    "age": 28,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Vaibhav Arora",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/583.png",
-    "profileUrl": "https://www.iplt20.com/players/vaibhav-arora/14859 "
+    "profileUrl": "https://www.iplt20.com/players/vaibhav-arora/14859 ",
+    "dob": "14 December 1997",
+    "age": 28,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Matheesha Pathirana",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/matheesha-pathirana/20627 "
+    "profileUrl": "https://www.iplt20.com/players/matheesha-pathirana/20627 ",
+    "dob": "18 December 2002",
+    "age": 22,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Kartik Tyagi",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/kartik-tyagi/10059 "
+    "profileUrl": "https://www.iplt20.com/players/kartik-tyagi/10059 ",
+    "dob": "08 November 2000",
+    "age": 25,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Prashant Solanki",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/prashant-solanki/20576 "
+    "profileUrl": "https://www.iplt20.com/players/prashant-solanki/20576 ",
+    "dob": "15 October 1992",
+    "age": 33,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Mustafizur Rahman",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/mustafizur-rahman/1594 "
+    "profileUrl": "https://www.iplt20.com/players/mustafizur-rahman/1594 ",
+    "dob": "06 September 1995",
+    "age": 30,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Akash Deep",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/akash-deep/14800 "
+    "profileUrl": "https://www.iplt20.com/players/akash-deep/14800 ",
+    "dob": "15 December 1996",
+    "age": 29,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Harshit Rana",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1013.png",
-    "profileUrl": "https://www.iplt20.com/players/harshit-rana/20626 "
+    "profileUrl": "https://www.iplt20.com/players/harshit-rana/20626 ",
+    "dob": "22 December 2001",
+    "age": 23,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Umran Malik",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/umran-malik/15154 "
+    "profileUrl": "https://www.iplt20.com/players/umran-malik/15154 ",
+    "dob": "22 November 1999",
+    "age": 26,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Sunil Narine",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/156.png",
-    "profileUrl": "https://www.iplt20.com/players/sunil-narine/203 "
+    "profileUrl": "https://www.iplt20.com/players/sunil-narine/203 ",
+    "dob": "26 May 1988",
+    "age": 37,
+    "iplDebut": "2012",
+    "totalYears": 15
   },
   {
     "name": "Varun Chakaravarthy",
     "teamCode": "KKR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/140.png",
-    "profileUrl": "https://www.iplt20.com/players/varun-chakaravarthy/5432 "
+    "profileUrl": "https://www.iplt20.com/players/varun-chakaravarthy/5432 ",
+    "dob": "29 August 1991",
+    "age": 34,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Rishabh Pant",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/18.png",
-    "profileUrl": "https://www.iplt20.com/players/rishabh-pant/2972 "
+    "profileUrl": "https://www.iplt20.com/players/rishabh-pant/2972 ",
+    "dob": "04 October 1997",
+    "age": 28,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Aiden Markram",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/287.png",
-    "profileUrl": "https://www.iplt20.com/players/aiden-markram/1667 "
+    "profileUrl": "https://www.iplt20.com/players/aiden-markram/1667 ",
+    "dob": "04 October 1994",
+    "age": 31,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Himmat Singh",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/203.png",
-    "profileUrl": "https://www.iplt20.com/players/himmat-singh/5434 "
+    "profileUrl": "https://www.iplt20.com/players/himmat-singh/5434 ",
+    "dob": "08 November 1996",
+    "age": 29,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Matthew Breetzke",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2805.png",
-    "profileUrl": "https://www.iplt20.com/players/matthew-breetzke/22375 "
+    "profileUrl": "https://www.iplt20.com/players/matthew-breetzke/22375 ",
+    "dob": "03 November 1998",
+    "age": 27,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Mukul Choudhary",
@@ -624,97 +980,161 @@
     "name": "Josh Inglis",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/josh-inglis/22372 "
+    "profileUrl": "https://www.iplt20.com/players/josh-inglis/22372 ",
+    "dob": "04 March 1995",
+    "age": 30,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Nicholas Pooran",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/136.png",
-    "profileUrl": "https://www.iplt20.com/players/nicholas-pooran/1703 "
+    "profileUrl": "https://www.iplt20.com/players/nicholas-pooran/1703 ",
+    "dob": "02 October 1995",
+    "age": 30,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Mitchell Marsh",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/40.png",
-    "profileUrl": "https://www.iplt20.com/players/mitchell-marsh/221 "
+    "profileUrl": "https://www.iplt20.com/players/mitchell-marsh/221 ",
+    "dob": "20 October 1991",
+    "age": 34,
+    "iplDebut": "2010",
+    "totalYears": 17
   },
   {
     "name": "Abdul Samad",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/525.png",
-    "profileUrl": "https://www.iplt20.com/players/abdul-samad/19352 "
+    "profileUrl": "https://www.iplt20.com/players/abdul-samad/19352 ",
+    "dob": "28 October 2001",
+    "age": 24,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Shahbaz Ahamad",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/523.png",
-    "profileUrl": "https://www.iplt20.com/players/shahbaz-ahamad/13803 "
+    "profileUrl": "https://www.iplt20.com/players/shahbaz-ahamad/13803 ",
+    "dob": "11 December 1994",
+    "age": 31,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Arshin Kulkarni",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2788.png",
-    "profileUrl": "https://www.iplt20.com/players/arshin-kulkarni/20691 "
+    "profileUrl": "https://www.iplt20.com/players/arshin-kulkarni/20691 ",
+    "dob": "15 February 2005",
+    "age": 20,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Wanindu Hasaranga",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/wanindu-hasaranga/3082 "
+    "profileUrl": "https://www.iplt20.com/players/wanindu-hasaranga/3082 ",
+    "dob": "29 July 1997",
+    "age": 28,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Ayush Badoni",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/985.png",
-    "profileUrl": "https://www.iplt20.com/players/ayush-badoni/20586 "
+    "profileUrl": "https://www.iplt20.com/players/ayush-badoni/20586 ",
+    "dob": "03 December 1999",
+    "age": 26,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Mohammad Shami",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/mohammad-shami/94 "
+    "profileUrl": "https://www.iplt20.com/players/mohammad-shami/94 ",
+    "dob": "03 September 1990",
+    "age": 35,
+    "iplDebut": "2013",
+    "totalYears": 14
   },
   {
     "name": "Avesh Khan",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/109.png",
-    "profileUrl": "https://www.iplt20.com/players/avesh-khan/1561 "
+    "profileUrl": "https://www.iplt20.com/players/avesh-khan/1561 ",
+    "dob": "13 December 1996",
+    "age": 29,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "M. Siddharth",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/532.png",
-    "profileUrl": "https://www.iplt20.com/players/m-siddharth/7119 "
+    "profileUrl": "https://www.iplt20.com/players/m-siddharth/7119 ",
+    "dob": "03 July 1998",
+    "age": 27,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Digvesh Singh",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3565.png",
-    "profileUrl": "https://www.iplt20.com/players/digvesh-singh/5847 "
+    "profileUrl": "https://www.iplt20.com/players/digvesh-singh/5847 ",
+    "dob": "15 December 1999",
+    "age": 26,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Akash Singh",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/535.png",
-    "profileUrl": "https://www.iplt20.com/players/akash-singh/12585 "
+    "profileUrl": "https://www.iplt20.com/players/akash-singh/12585 ",
+    "dob": "26 April 2002",
+    "age": 23,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Prince Yadav",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1225.png",
-    "profileUrl": "https://www.iplt20.com/players/prince-yadav/22097 "
+    "profileUrl": "https://www.iplt20.com/players/prince-yadav/22097 ",
+    "dob": "12 December 2001",
+    "age": 24,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Arjun Tendulkar",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/arjun-tendulkar/10244 "
+    "profileUrl": "https://www.iplt20.com/players/arjun-tendulkar/10244 ",
+    "dob": "24 September 1999",
+    "age": 26,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Anrich Nortje",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/anrich-nortje/5433 "
+    "profileUrl": "https://www.iplt20.com/players/anrich-nortje/5433 ",
+    "dob": "16 November 1993",
+    "age": 32,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Naman Tiwari",
@@ -725,49 +1145,81 @@
     "name": "Mayank Yadav",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/987.png",
-    "profileUrl": "https://www.iplt20.com/players/mayank-yadav/20585 "
+    "profileUrl": "https://www.iplt20.com/players/mayank-yadav/20585 ",
+    "dob": "17 June 2002",
+    "age": 23,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Mohsin Khan",
     "teamCode": "LSG",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/541.png",
-    "profileUrl": "https://www.iplt20.com/players/mohsin-khan/4952 "
+    "profileUrl": "https://www.iplt20.com/players/mohsin-khan/4952 ",
+    "dob": "15 July 1998",
+    "age": 27,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Rohit Sharma",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/6.png",
-    "profileUrl": "https://www.iplt20.com/players/rohit-sharma/107 "
+    "profileUrl": "https://www.iplt20.com/players/rohit-sharma/107 ",
+    "dob": "30 April 1987",
+    "age": 38,
+    "iplDebut": "2008",
+    "totalYears": 19
   },
   {
     "name": "Surya Kumar Yadav",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/174.png",
-    "profileUrl": "https://www.iplt20.com/players/surya-kumar-yadav/108 "
+    "profileUrl": "https://www.iplt20.com/players/surya-kumar-yadav/108 ",
+    "dob": "14 September 1990",
+    "age": 35,
+    "iplDebut": "2012",
+    "totalYears": 15
   },
   {
     "name": "Robin Minz",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3103.png",
-    "profileUrl": "https://www.iplt20.com/players/robin-minz/20707 "
+    "profileUrl": "https://www.iplt20.com/players/robin-minz/20707 ",
+    "dob": "13 September 2002",
+    "age": 23,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Sherfane Rutherford",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/sherfane-rutherford/5396 "
+    "profileUrl": "https://www.iplt20.com/players/sherfane-rutherford/5396 ",
+    "dob": "15 August 1998",
+    "age": 27,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Ryan Rickelton",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/743.png",
-    "profileUrl": "https://www.iplt20.com/players/ryan-rickelton/22003 "
+    "profileUrl": "https://www.iplt20.com/players/ryan-rickelton/22003 ",
+    "dob": "11 July 1996",
+    "age": 29,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Quinton de Kock",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/quinton-de-kock/834 "
+    "profileUrl": "https://www.iplt20.com/players/quinton-de-kock/834 ",
+    "dob": "17 December 1992",
+    "age": 32,
+    "iplDebut": "2013",
+    "totalYears": 14
   },
   {
     "name": "Danish Malewar",
@@ -778,31 +1230,51 @@
     "name": "N. Tilak Varma",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/993.png",
-    "profileUrl": "https://www.iplt20.com/players/n-tilak-varma/20594 "
+    "profileUrl": "https://www.iplt20.com/players/n-tilak-varma/20594 ",
+    "dob": "08 November 2002",
+    "age": 23,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Hardik Pandya",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/54.png",
-    "profileUrl": "https://www.iplt20.com/players/hardik-pandya/2740 "
+    "profileUrl": "https://www.iplt20.com/players/hardik-pandya/2740 ",
+    "dob": "11 October 1993",
+    "age": 32,
+    "iplDebut": "2015",
+    "totalYears": 12
   },
   {
     "name": "Naman Dhir",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3107.png",
-    "profileUrl": "https://www.iplt20.com/players/naman-dhir/20701 "
+    "profileUrl": "https://www.iplt20.com/players/naman-dhir/20701 ",
+    "dob": "31 December 1999",
+    "age": 25,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Mitchell Santner",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/75.png",
-    "profileUrl": "https://www.iplt20.com/players/mitchell-santner/1903 "
+    "profileUrl": "https://www.iplt20.com/players/mitchell-santner/1903 ",
+    "dob": "05 February 1992",
+    "age": 33,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Raj Angad Bawa",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/781.png",
-    "profileUrl": "https://www.iplt20.com/players/raj-angad-bawa/20601 "
+    "profileUrl": "https://www.iplt20.com/players/raj-angad-bawa/20601 ",
+    "dob": "12 November 2002",
+    "age": 23,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Atharva Ankolekar",
@@ -818,49 +1290,80 @@
     "name": "Corbin Bosch",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/corbin-bosch/20680 "
+    "profileUrl": "https://www.iplt20.com/players/corbin-bosch/20680 ",
+    "dob": "10 September 1994",
+    "age": 31,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Will Jacks",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/will-jacks/5629 "
+    "profileUrl": "https://www.iplt20.com/players/will-jacks/5629 ",
+    "dob": "21 November 1998",
+    "age": 27,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Shardul Thakur",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/shardul-thakur/1745 "
+    "profileUrl": "https://www.iplt20.com/players/shardul-thakur/1745 ",
+    "dob": "16 October 1991",
+    "age": 34,
+    "iplDebut": "2015",
+    "totalYears": 12
   },
   {
     "name": "Trent Boult",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/66.png",
-    "profileUrl": "https://www.iplt20.com/players/trent-boult/969 "
+    "profileUrl": "https://www.iplt20.com/players/trent-boult/969 ",
+    "dob": "22 July 1989",
+    "age": 36,
+    "iplDebut": "2015",
+    "totalYears": 12
   },
   {
     "name": "Mayank Markande",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/mayank-markande/4951 "
+    "profileUrl": "https://www.iplt20.com/players/mayank-markande/4951 ",
+    "dob": "11 November 1997",
+    "age": 28,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Deepak Chahar",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/91.png",
-    "profileUrl": "https://www.iplt20.com/players/deepak-chahar/140 "
+    "profileUrl": "https://www.iplt20.com/players/deepak-chahar/140 ",
+    "dob": "07 August 1992",
+    "age": 33,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Ashwani Kumar",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3569.png",
-    "profileUrl": "https://www.iplt20.com/players/ashwani-kumar/22030 "
+    "profileUrl": "https://www.iplt20.com/players/ashwani-kumar/22030 ",
+    "dob": "29 August 2001",
+    "age": 24,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Raghu Sharma",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3869.png",
-    "profileUrl": "https://www.iplt20.com/players/raghu-sharma/22379 "
+    "profileUrl": "https://www.iplt20.com/players/raghu-sharma/22379 ",
+    "dob": "11 March 1993",
+    "age": 32,
+    "iplDebut": "-"
   },
   {
     "name": "Mohammad Izhar",
@@ -871,103 +1374,169 @@
     "name": "Allah Ghazanfar",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/allah-ghazanfar/20725 "
+    "profileUrl": "https://www.iplt20.com/players/allah-ghazanfar/20725 ",
+    "dob": "15 July 2007",
+    "age": 18,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Jasprit Bumrah",
     "teamCode": "MI",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/9.png",
-    "profileUrl": "https://www.iplt20.com/players/jasprit-bumrah/1124 "
+    "profileUrl": "https://www.iplt20.com/players/jasprit-bumrah/1124 ",
+    "dob": "06 December 1993",
+    "age": 32,
+    "iplDebut": "2013",
+    "totalYears": 14
   },
   {
     "name": "Shreyas Iyer",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/12.png",
-    "profileUrl": "https://www.iplt20.com/players/shreyas-iyer/1563 "
+    "profileUrl": "https://www.iplt20.com/players/shreyas-iyer/1563 ",
+    "dob": "06 December 1994",
+    "age": 31,
+    "iplDebut": "2015",
+    "totalYears": 12
   },
   {
     "name": "Nehal Wadhera",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1541.png",
-    "profileUrl": "https://www.iplt20.com/players/nehal-wadhera/5859 "
+    "profileUrl": "https://www.iplt20.com/players/nehal-wadhera/5859 ",
+    "dob": "04 September 2000",
+    "age": 25,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Vishnu Vinod",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/581.png",
-    "profileUrl": "https://www.iplt20.com/players/vishnu-vinod/4305 "
+    "profileUrl": "https://www.iplt20.com/players/vishnu-vinod/4305 ",
+    "dob": "02 December 1993",
+    "age": 32,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "Harnoor Pannu",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/784.png",
-    "profileUrl": "https://www.iplt20.com/players/harnoor-pannu/22019 "
+    "profileUrl": "https://www.iplt20.com/players/harnoor-pannu/22019 ",
+    "dob": "30 January 2003",
+    "age": 22,
+    "iplDebut": "-"
   },
   {
     "name": "Pyla Avinash",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3573.png",
-    "profileUrl": "https://www.iplt20.com/players/pyla-avinash/22145 "
+    "profileUrl": "https://www.iplt20.com/players/pyla-avinash/22145 ",
+    "dob": "07 July 2000",
+    "age": 25,
+    "iplDebut": "-"
   },
   {
     "name": "Prabhsimran Singh",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/137.png",
-    "profileUrl": "https://www.iplt20.com/players/prabhsimran-singh/5436 "
+    "profileUrl": "https://www.iplt20.com/players/prabhsimran-singh/5436 ",
+    "dob": "10 August 2000",
+    "age": 25,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Shashank Singh",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/191.png",
-    "profileUrl": "https://www.iplt20.com/players/shashank-singh/3261 "
+    "profileUrl": "https://www.iplt20.com/players/shashank-singh/3261 ",
+    "dob": "21 November 1991",
+    "age": 34,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Marcus Stoinis",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/23.png",
-    "profileUrl": "https://www.iplt20.com/players/marcus-stoinis/964 "
+    "profileUrl": "https://www.iplt20.com/players/marcus-stoinis/964 ",
+    "dob": "16 August 1989",
+    "age": 36,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Harpreet Brar",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/130.png",
-    "profileUrl": "https://www.iplt20.com/players/harpreet-brar/5441 "
+    "profileUrl": "https://www.iplt20.com/players/harpreet-brar/5441 ",
+    "dob": "16 September 1995",
+    "age": 30,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Marco Jansen",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/586.png",
-    "profileUrl": "https://www.iplt20.com/players/marco-jansen/17068 "
+    "profileUrl": "https://www.iplt20.com/players/marco-jansen/17068 ",
+    "dob": "01 May 2000",
+    "age": 25,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Azmatullah Omarzai",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1354.png",
-    "profileUrl": "https://www.iplt20.com/players/azmatullah-omarzai/20685 "
+    "profileUrl": "https://www.iplt20.com/players/azmatullah-omarzai/20685 ",
+    "dob": "24 March 2000",
+    "age": 25,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Priyansh Arya",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3571.png",
-    "profileUrl": "https://www.iplt20.com/players/priyansh-arya/22052 "
+    "profileUrl": "https://www.iplt20.com/players/priyansh-arya/22052 ",
+    "dob": "18 September 2001",
+    "age": 24,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Musheer Khan",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2813.png",
-    "profileUrl": "https://www.iplt20.com/players/musheer-khan/22085 "
+    "profileUrl": "https://www.iplt20.com/players/musheer-khan/22085 ",
+    "dob": "27 February 2005",
+    "age": 20,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Suryansh Shedge",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2146.png",
-    "profileUrl": "https://www.iplt20.com/players/suryansh-shedge/20683 "
+    "profileUrl": "https://www.iplt20.com/players/suryansh-shedge/20683 ",
+    "dob": "29 January 2003",
+    "age": 22,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Mitch Owen",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3870.png",
-    "profileUrl": "https://www.iplt20.com/players/mitch-owen/22380 "
+    "profileUrl": "https://www.iplt20.com/players/mitch-owen/22380 ",
+    "dob": "16 September 2001",
+    "age": 24,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Cooper Connolly",
@@ -983,37 +1552,61 @@
     "name": "Arshdeep Singh",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/125.png",
-    "profileUrl": "https://www.iplt20.com/players/arshdeep-singh/4698 "
+    "profileUrl": "https://www.iplt20.com/players/arshdeep-singh/4698 ",
+    "dob": "05 February 1999",
+    "age": 26,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Yuzvendra Chahal",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/10.png",
-    "profileUrl": "https://www.iplt20.com/players/yuzvendra-chahal/111 "
+    "profileUrl": "https://www.iplt20.com/players/yuzvendra-chahal/111 ",
+    "dob": "23 July 1990",
+    "age": 35,
+    "iplDebut": "2013",
+    "totalYears": 14
   },
   {
     "name": "Vyshak Vijaykumar",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2034.png",
-    "profileUrl": "https://www.iplt20.com/players/vyshak-vijaykumar/1097 "
+    "profileUrl": "https://www.iplt20.com/players/vyshak-vijaykumar/1097 ",
+    "dob": "31 January 1997",
+    "age": 28,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Yash Thakur",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1550.png",
-    "profileUrl": "https://www.iplt20.com/players/yash-thakur/5624 "
+    "profileUrl": "https://www.iplt20.com/players/yash-thakur/5624 ",
+    "dob": "28 December 1998",
+    "age": 26,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Xavier Bartlett",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3572.png",
-    "profileUrl": "https://www.iplt20.com/players/xavier-bartlett/22112 "
+    "profileUrl": "https://www.iplt20.com/players/xavier-bartlett/22112 ",
+    "dob": "17 December 1998",
+    "age": 26,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Pravin Dubey",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/548.png",
-    "profileUrl": "https://www.iplt20.com/players/pravin-dubey/3188 "
+    "profileUrl": "https://www.iplt20.com/players/pravin-dubey/3188 ",
+    "dob": "01 July 1993",
+    "age": 32,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Vishal Nishad",
@@ -1024,31 +1617,51 @@
     "name": "Lockie Ferguson",
     "teamCode": "PBKS",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/lockie-ferguson/3729 "
+    "profileUrl": "https://www.iplt20.com/players/lockie-ferguson/3729 ",
+    "dob": "13 June 1991",
+    "age": 34,
+    "iplDebut": "2017",
+    "totalYears": 10
   },
   {
     "name": "Shubham Dubey",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3112.png",
-    "profileUrl": "https://www.iplt20.com/players/shubham-dubey/20688 "
+    "profileUrl": "https://www.iplt20.com/players/shubham-dubey/20688 ",
+    "dob": "27 August 1994",
+    "age": 31,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Vaibhav Suryavanshi",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3498.png",
-    "profileUrl": "https://www.iplt20.com/players/vaibhav-suryavanshi/22203 "
+    "profileUrl": "https://www.iplt20.com/players/vaibhav-suryavanshi/22203 ",
+    "dob": "27 March 2011",
+    "age": 14,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Donovan Ferreira",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/donovan-ferreira/5652 "
+    "profileUrl": "https://www.iplt20.com/players/donovan-ferreira/5652 ",
+    "dob": "21 July 1998",
+    "age": 27,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Lhuan-dre Pretorius",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2827.png",
-    "profileUrl": "https://www.iplt20.com/players/lhuan-dre-pretorius/22383 "
+    "profileUrl": "https://www.iplt20.com/players/lhuan-dre-pretorius/22383 ",
+    "dob": "28 March 2006",
+    "age": 19,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Ravi Singh",
@@ -1064,73 +1677,120 @@
     "name": "Shimron Hetmyer",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/210.png",
-    "profileUrl": "https://www.iplt20.com/players/shimron-hetmyer/1705 "
+    "profileUrl": "https://www.iplt20.com/players/shimron-hetmyer/1705 ",
+    "dob": "26 December 1996",
+    "age": 28,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Yashasvi Jaiswal",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/533.png",
-    "profileUrl": "https://www.iplt20.com/players/yashasvi-jaiswal/13538 "
+    "profileUrl": "https://www.iplt20.com/players/yashasvi-jaiswal/13538 ",
+    "dob": "28 December 2001",
+    "age": 23,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Dhruv Jurel",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1004.png",
-    "profileUrl": "https://www.iplt20.com/players/dhruv-jurel/20620 "
+    "profileUrl": "https://www.iplt20.com/players/dhruv-jurel/20620 ",
+    "dob": "21 January 2001",
+    "age": 24,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Riyan Parag",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/189.png",
-    "profileUrl": "https://www.iplt20.com/players/riyan-parag/4445 "
+    "profileUrl": "https://www.iplt20.com/players/riyan-parag/4445 ",
+    "dob": "10 November 2001",
+    "age": 24,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Yudhvir Singh Charak",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/587.png",
-    "profileUrl": "https://www.iplt20.com/players/yudhvir-singh-charak/10842 "
+    "profileUrl": "https://www.iplt20.com/players/yudhvir-singh-charak/10842 ",
+    "dob": "13 September 1997",
+    "age": 28,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Ravindra Jadeja",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/ravindra-jadeja/9 "
+    "profileUrl": "https://www.iplt20.com/players/ravindra-jadeja/9 ",
+    "dob": "06 December 1988",
+    "age": 37,
+    "iplDebut": "2008",
+    "totalYears": 19
   },
   {
     "name": "Sam Curran",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/sam-curran/2939 "
+    "profileUrl": "https://www.iplt20.com/players/sam-curran/2939 ",
+    "dob": "03 June 1998",
+    "age": 27,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Jofra Archer",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/181.png",
-    "profileUrl": "https://www.iplt20.com/players/jofra-archer/3502 "
+    "profileUrl": "https://www.iplt20.com/players/jofra-archer/3502 ",
+    "dob": "01 April 1995",
+    "age": 30,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Tushar Deshpande",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/539.png",
-    "profileUrl": "https://www.iplt20.com/players/tushar-deshpande/3257 "
+    "profileUrl": "https://www.iplt20.com/players/tushar-deshpande/3257 ",
+    "dob": "15 May 1995",
+    "age": 30,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Kwena Maphaka",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/801.png",
-    "profileUrl": "https://www.iplt20.com/players/kwena-maphaka/20724 "
+    "profileUrl": "https://www.iplt20.com/players/kwena-maphaka/20724 ",
+    "dob": "08 April 2006",
+    "age": 19,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Ravi Bishnoi",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/ravi-bishnoi/19351 "
+    "profileUrl": "https://www.iplt20.com/players/ravi-bishnoi/19351 ",
+    "dob": "05 September 2000",
+    "age": 25,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Sushant Mishra",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/sushant-mishra/20695 "
+    "profileUrl": "https://www.iplt20.com/players/sushant-mishra/20695 ",
+    "dob": "23 December 2000",
+    "age": 24,
+    "iplDebut": "NA"
   },
   {
     "name": "Yash Raj Punja",
@@ -1141,7 +1801,11 @@
     "name": "Vignesh Puthur",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/vignesh-puthur/22266 "
+    "profileUrl": "https://www.iplt20.com/players/vignesh-puthur/22266 ",
+    "dob": "02 March 2001",
+    "age": 24,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Brijesh Sharma",
@@ -1152,55 +1816,90 @@
     "name": "Adam Milne",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/adam-milne/434 "
+    "profileUrl": "https://www.iplt20.com/players/adam-milne/434 ",
+    "dob": "13 April 1992",
+    "age": 33,
+    "iplDebut": "-"
   },
   {
     "name": "Kuldeep Sen",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1005.png",
-    "profileUrl": "https://www.iplt20.com/players/kuldeep-sen/20616 "
+    "profileUrl": "https://www.iplt20.com/players/kuldeep-sen/20616 ",
+    "dob": "22 October 1996",
+    "age": 29,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Sandeep Sharma",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/220.png",
-    "profileUrl": "https://www.iplt20.com/players/sandeep-sharma/1112 "
+    "profileUrl": "https://www.iplt20.com/players/sandeep-sharma/1112 ",
+    "dob": "18 May 1993",
+    "age": 32,
+    "iplDebut": "2013",
+    "totalYears": 14
   },
   {
     "name": "Nandre Burger",
     "teamCode": "RR",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2806.png",
-    "profileUrl": "https://www.iplt20.com/players/nandre-burger/20716 "
+    "profileUrl": "https://www.iplt20.com/players/nandre-burger/20716 ",
+    "dob": "11 August 1995",
+    "age": 30,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Rajat Patidar",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/597.png",
-    "profileUrl": "https://www.iplt20.com/players/rajat-patidar/5471 "
+    "profileUrl": "https://www.iplt20.com/players/rajat-patidar/5471 ",
+    "dob": "01 June 1993",
+    "age": 32,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Devdutt Padikkal",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/200.png",
-    "profileUrl": "https://www.iplt20.com/players/devdutt-padikkal/5430 "
+    "profileUrl": "https://www.iplt20.com/players/devdutt-padikkal/5430 ",
+    "dob": "07 July 2000",
+    "age": 25,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Virat Kohli",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2.png",
-    "profileUrl": "https://www.iplt20.com/players/virat-kohli/164 "
+    "profileUrl": "https://www.iplt20.com/players/virat-kohli/164 ",
+    "dob": "05 November 1988",
+    "age": 37,
+    "iplDebut": "2008",
+    "totalYears": 19
   },
   {
     "name": "Phil Salt",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1220.png",
-    "profileUrl": "https://www.iplt20.com/players/phil-salt/5606 "
+    "profileUrl": "https://www.iplt20.com/players/phil-salt/5606 ",
+    "dob": "28 August 1996",
+    "age": 29,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Jitesh Sharma",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1000.png",
-    "profileUrl": "https://www.iplt20.com/players/jitesh-sharma/3185 "
+    "profileUrl": "https://www.iplt20.com/players/jitesh-sharma/3185 ",
+    "dob": "22 October 1993",
+    "age": 32,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Jordan Cox",
@@ -1211,37 +1910,61 @@
     "name": "Krunal Pandya",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/17.png",
-    "profileUrl": "https://www.iplt20.com/players/krunal-pandya/3183 "
+    "profileUrl": "https://www.iplt20.com/players/krunal-pandya/3183 ",
+    "dob": "24 March 1991",
+    "age": 34,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Swapnil Singh",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1483.png",
-    "profileUrl": "https://www.iplt20.com/players/swapnil-singh/3180 "
+    "profileUrl": "https://www.iplt20.com/players/swapnil-singh/3180 ",
+    "dob": "22 January 1991",
+    "age": 34,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Tim David",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/636.png",
-    "profileUrl": "https://www.iplt20.com/players/tim-david/4524 "
+    "profileUrl": "https://www.iplt20.com/players/tim-david/4524 ",
+    "dob": "16 March 1996",
+    "age": 29,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Romario Shepherd",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/371.png",
-    "profileUrl": "https://www.iplt20.com/players/romario-shepherd/20609 "
+    "profileUrl": "https://www.iplt20.com/players/romario-shepherd/20609 ",
+    "dob": "26 November 1994",
+    "age": 31,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Jacob Bethell",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/869.png",
-    "profileUrl": "https://www.iplt20.com/players/jacob-bethell/22074 "
+    "profileUrl": "https://www.iplt20.com/players/jacob-bethell/22074 ",
+    "dob": "23 October 2003",
+    "age": 22,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Venkatesh Iyer",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/venkatesh-iyer/8540 "
+    "profileUrl": "https://www.iplt20.com/players/venkatesh-iyer/8540 ",
+    "dob": "25 December 1994",
+    "age": 30,
+    "iplDebut": "2021",
+    "totalYears": 6
   },
   {
     "name": "Satvik Deswal",
@@ -1257,7 +1980,10 @@
     "name": "Vicky Ostwal",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/vicky-ostwal/20624 "
+    "profileUrl": "https://www.iplt20.com/players/vicky-ostwal/20624 ",
+    "dob": "01 September 2002",
+    "age": 23,
+    "iplDebut": "-"
   },
   {
     "name": "Vihaan Malhotra",
@@ -1273,37 +1999,60 @@
     "name": "Josh Hazlewood",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/36.png",
-    "profileUrl": "https://www.iplt20.com/players/josh-hazlewood/857 "
+    "profileUrl": "https://www.iplt20.com/players/josh-hazlewood/857 ",
+    "dob": "08 January 1991",
+    "age": 34,
+    "iplDebut": "2020",
+    "totalYears": 7
   },
   {
     "name": "Rasikh Dar",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/172.png",
-    "profileUrl": "https://www.iplt20.com/players/rasikh-dar/20577 "
+    "profileUrl": "https://www.iplt20.com/players/rasikh-dar/20577 ",
+    "dob": "05 April 2000",
+    "age": 25,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Suyash Sharma",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1932.png",
-    "profileUrl": "https://www.iplt20.com/players/suyash-sharma/5668 "
+    "profileUrl": "https://www.iplt20.com/players/suyash-sharma/5668 ",
+    "dob": "15 May 2003",
+    "age": 22,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Bhuvneshwar Kumar",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/15.png",
-    "profileUrl": "https://www.iplt20.com/players/bhuvneshwar-kumar/116 "
+    "profileUrl": "https://www.iplt20.com/players/bhuvneshwar-kumar/116 ",
+    "dob": "05 February 1990",
+    "age": 35,
+    "iplDebut": "2011",
+    "totalYears": 16
   },
   {
     "name": "Nuwan Thushara",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/813.png",
-    "profileUrl": "https://www.iplt20.com/players/nuwan-thushara/20700 "
+    "profileUrl": "https://www.iplt20.com/players/nuwan-thushara/20700 ",
+    "dob": "06 August 1994",
+    "age": 31,
+    "iplDebut": "2024",
+    "totalYears": 3
   },
   {
     "name": "Abhinandan Singh",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3574.png",
-    "profileUrl": "https://www.iplt20.com/players/abhinandan-singh/22136 "
+    "profileUrl": "https://www.iplt20.com/players/abhinandan-singh/22136 ",
+    "dob": "30 March 1997",
+    "age": 28,
+    "iplDebut": "-"
   },
   {
     "name": "Jacob Duffy",
@@ -1314,25 +2063,39 @@
     "name": "Yash Dayal",
     "teamCode": "RCB",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/978.png",
-    "profileUrl": "https://www.iplt20.com/players/yash-dayal/20591 "
+    "profileUrl": "https://www.iplt20.com/players/yash-dayal/20591 ",
+    "dob": "13 December 1997",
+    "age": 28,
+    "iplDebut": "2022",
+    "totalYears": 5
   },
   {
     "name": "Ishan Kishan",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/164.png",
-    "profileUrl": "https://www.iplt20.com/players/ishan-kishan/2975 "
+    "profileUrl": "https://www.iplt20.com/players/ishan-kishan/2975 ",
+    "dob": "18 July 1998",
+    "age": 27,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Aniket Verma",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3576.png",
-    "profileUrl": "https://www.iplt20.com/players/aniket-verma/22082 "
+    "profileUrl": "https://www.iplt20.com/players/aniket-verma/22082 ",
+    "dob": "05 February 2002",
+    "age": 23,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Smaran Ravichandran",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3752.png",
-    "profileUrl": "https://www.iplt20.com/players/smaran-ravichandran/22378 "
+    "profileUrl": "https://www.iplt20.com/players/smaran-ravichandran/22378 ",
+    "dob": "N/A",
+    "iplDebut": "-"
   },
   {
     "name": "Salil Arora",
@@ -1343,37 +2106,60 @@
     "name": "Heinrich Klaasen",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/202.png",
-    "profileUrl": "https://www.iplt20.com/players/heinrich-klaasen/3869 "
+    "profileUrl": "https://www.iplt20.com/players/heinrich-klaasen/3869 ",
+    "dob": "30 July 1991",
+    "age": 34,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Travis Head",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/37.png",
-    "profileUrl": "https://www.iplt20.com/players/travis-head/1020 "
+    "profileUrl": "https://www.iplt20.com/players/travis-head/1020 ",
+    "dob": "29 December 1993",
+    "age": 31,
+    "iplDebut": "2016",
+    "totalYears": 11
   },
   {
     "name": "Harshal Patel",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/114.png",
-    "profileUrl": "https://www.iplt20.com/players/harshal-patel/157 "
+    "profileUrl": "https://www.iplt20.com/players/harshal-patel/157 ",
+    "dob": "23 November 1990",
+    "age": 35,
+    "iplDebut": "2012",
+    "totalYears": 15
   },
   {
     "name": "Kamindu Mendis",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/627.png",
-    "profileUrl": "https://www.iplt20.com/players/kamindu-mendis/22077 "
+    "profileUrl": "https://www.iplt20.com/players/kamindu-mendis/22077 ",
+    "dob": "30 September 1998",
+    "age": 27,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Harsh Dubey",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1494.png",
-    "profileUrl": "https://www.iplt20.com/players/harsh-dubey/22381 "
+    "profileUrl": "https://www.iplt20.com/players/harsh-dubey/22381 ",
+    "dob": "13 July 2002",
+    "age": 23,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Brydon Carse",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/brydon-carse/22075 "
+    "profileUrl": "https://www.iplt20.com/players/brydon-carse/22075 ",
+    "dob": "31 July 1995",
+    "age": 30,
+    "iplDebut": "-"
   },
   {
     "name": "Shivang Kumar",
@@ -1389,7 +2175,11 @@
     "name": "Liam Livingstone",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/liam-livingstone/3644 "
+    "profileUrl": "https://www.iplt20.com/players/liam-livingstone/3644 ",
+    "dob": "04 August 1993",
+    "age": 32,
+    "iplDebut": "2019",
+    "totalYears": 8
   },
   {
     "name": "Jack Edwards",
@@ -1400,43 +2190,70 @@
     "name": "Abhishek Sharma",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/212.png",
-    "profileUrl": "https://www.iplt20.com/players/abhishek-sharma/3760 "
+    "profileUrl": "https://www.iplt20.com/players/abhishek-sharma/3760 ",
+    "dob": "04 September 2000",
+    "age": 25,
+    "iplDebut": "2018",
+    "totalYears": 9
   },
   {
     "name": "Nitish Kumar Reddy",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1944.png",
-    "profileUrl": "https://www.iplt20.com/players/nitish-kumar-reddy/5711 "
+    "profileUrl": "https://www.iplt20.com/players/nitish-kumar-reddy/5711 ",
+    "dob": "26 May 2003",
+    "age": 22,
+    "iplDebut": "2023",
+    "totalYears": 4
   },
   {
     "name": "Pat Cummins",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/33.png",
-    "profileUrl": "https://www.iplt20.com/players/pat-cummins/488 "
+    "profileUrl": "https://www.iplt20.com/players/pat-cummins/488 ",
+    "dob": "08 May 1993",
+    "age": 32,
+    "iplDebut": "2014",
+    "totalYears": 13
   },
   {
     "name": "Zeeshan Ansari",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3575.png",
-    "profileUrl": "https://www.iplt20.com/players/zeeshan-ansari/22007 "
+    "profileUrl": "https://www.iplt20.com/players/zeeshan-ansari/22007 ",
+    "dob": "16 December 1999",
+    "age": 26,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Jaydev Unadkat",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/180.png",
-    "profileUrl": "https://www.iplt20.com/players/jaydev-unadkat/86 "
+    "profileUrl": "https://www.iplt20.com/players/jaydev-unadkat/86 ",
+    "dob": "18 October 1991",
+    "age": 34,
+    "iplDebut": "2010",
+    "totalYears": 17
   },
   {
     "name": "Eshan Malinga",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3339.png",
-    "profileUrl": "https://www.iplt20.com/players/eshan-malinga/22228 "
+    "profileUrl": "https://www.iplt20.com/players/eshan-malinga/22228 ",
+    "dob": "04 February 2001",
+    "age": 24,
+    "iplDebut": "2025",
+    "totalYears": 2
   },
   {
     "name": "Sakib Hussain",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/sakib-hussain/20717 "
+    "profileUrl": "https://www.iplt20.com/players/sakib-hussain/20717 ",
+    "dob": "14 December 2004",
+    "age": 21,
+    "iplDebut": "-"
   },
   {
     "name": "Onkar Tarmale",
@@ -1457,6 +2274,10 @@
     "name": "Shivam Mavi",
     "teamCode": "SRH",
     "imageUrl": "https://documents.iplt20.com/ipl/assets/images/Default-Men.png",
-    "profileUrl": "https://www.iplt20.com/players/shivam-mavi/3779 "
+    "profileUrl": "https://www.iplt20.com/players/shivam-mavi/3779 ",
+    "dob": "26 November 1998",
+    "age": 27,
+    "iplDebut": "2018",
+    "totalYears": 9
   }
 ]

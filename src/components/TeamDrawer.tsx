@@ -40,9 +40,10 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
               <div className="flex justify-between items-center mb-8">
                 <div>
                   <h2 className="text-4xl font-black text-white tracking-tighter">{team.name}</h2>
-                  <div className="flex gap-4 mt-2 text-sm text-zinc-400">
-                    <span>Purse: <span className="text-green-400">{team.purseLeft.replace(' Cr', '')} Cr</span></span>
-                    <span>Squad: {team.playersBought}</span>
+                  <div className="flex flex-wrap gap-x-6 gap-y-2 mt-2 text-sm text-zinc-400">
+                    <span>Purse Spent: <span className="text-zinc-200 font-mono">{team.purseSpent}</span></span>
+                    <span>Remaining: <span className="text-green-400 font-mono">{team.purseLeft.replace(' Cr', '')} Cr</span></span>
+                    <span>Squad: <span className="text-zinc-200">{team.playersBought}</span></span>
                   </div>
                 </div>
                 <button 

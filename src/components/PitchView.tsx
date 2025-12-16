@@ -92,59 +92,46 @@ export function PitchView({ bestXI, teamCode, roster = [] }: PitchViewProps) {
       <div className="relative h-full flex flex-col justify-between py-2 mx-16">
         {/* Openers */}
         <div className="flex justify-center gap-8">
-          <PlayerPill name={xiPlayers[0]} teamCode={teamCode} />
-          <PlayerPill name={xiPlayers[1]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[0]} teamCode={teamCode} roster={roster} />
+          <PlayerPill name={xiPlayers[1]} teamCode={teamCode} roster={roster} />
         </div>
         
         {/* Top Order */}
         <div className="flex justify-center">
-          <PlayerPill name={xiPlayers[2]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[2]} teamCode={teamCode} roster={roster} />
         </div>
 
         {/* Middle Order */}
         <div className="flex justify-center gap-12">
-          <PlayerPill name={xiPlayers[3]} teamCode={teamCode} />
-          <PlayerPill name={xiPlayers[4]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[3]} teamCode={teamCode} roster={roster} />
+          <PlayerPill name={xiPlayers[4]} teamCode={teamCode} roster={roster} />
         </div>
 
         {/* Lower Middle / All Rounders */}
         <div className="flex justify-center gap-8">
-          <PlayerPill name={xiPlayers[5]} teamCode={teamCode} />
-          <PlayerPill name={xiPlayers[6]} teamCode={teamCode} />
+          <PlayerPill name={xiPlayers[5]} teamCode={teamCode} roster={roster} />
+          <PlayerPill name={xiPlayers[6]} teamCode={teamCode} roster={roster} />
         </div>
 
         {/* Bowlers */}
-        <div className="flex justify-center gap-4">
-          <PlayerPill name={xiPlayers[7]} teamCode={teamCode} />
-          <PlayerPill name={xiPlayers[8]} teamCode={teamCode} />
-          <PlayerPill name={xiPlayers[9]} teamCode={teamCode} />
-          <PlayerPill name={xiPlayers[10]} teamCode={teamCode} />
+        <div className="flex justify-center gap-10">
+          <PlayerPill name={xiPlayers[7]} teamCode={teamCode} roster={roster} />
+          <PlayerPill name={xiPlayers[8]} teamCode={teamCode} roster={roster} />
+          <PlayerPill name={xiPlayers[9]} teamCode={teamCode} roster={roster} />
+          <PlayerPill name={xiPlayers[10]} teamCode={teamCode} roster={roster} />
         </div>
       </div>
     </div>
   );
 }
 
-function MiniPlayerPill({ player, teamCode, align = 'right' }: { player: Player; teamCode: string; align?: 'left' | 'right' }) {
+function MiniPlayerPill({ player, teamCode, align }: { player: Player; teamCode: string; align: 'left' | 'right' }) {
   const [error, setError] = useState(false);
   const imageUrl = getPlayerImageUrl(teamCode, player.name);
-  
-  // Infer overseas from name if possible, but roster doesn't have it. 
-  // We can't easily know for reserves unless we check against a known list or if the user provided it.
-  // For now, default to Indian style unless we know otherwise.
-  // Actually, we can check if the name is in the Best XI string with a plane icon, but these are reserves.
-  // So we don't know. We'll just use the blue style for all reserves for now, or maybe a neutral one.
-  const isOverseas = false; // Default for reserves as we don't have the data easily available
 
   return (
-    <div className={`group relative flex items-center gap-2 ${align === 'left' ? 'flex-row-reverse' : 'flex-row'}`}>
-      <div className={`
-        w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold border-2 overflow-hidden transition-all duration-300 shrink-0
-        ${isOverseas 
-          ? 'bg-purple-900/50 border-purple-500 text-purple-200' 
-          : 'bg-zinc-800 border-zinc-600 text-zinc-300'}
-        hover:scale-125 hover:z-20 cursor-help
-      `}>
+    <div className={`flex items-center gap-2 ${align === 'left' ? 'flex-row-reverse' : 'flex-row'}`}>
+      <div className="w-6 h-6 rounded-full bg-zinc-800 border border-zinc-700 overflow-hidden flex-shrink-0">
         {!error ? (
           <img 
             src={imageUrl} 
@@ -162,15 +149,25 @@ function MiniPlayerPill({ player, teamCode, align = 'right' }: { player: Player;
     </div>
   );
 }
-function PlayerPill({ name, teamCode }: { name: string; teamCode: string }) {
+
+function PlayerPill({ name, teamCode, roster }: { name: string; teamCode: string; roster?: Player[] }) {
   if (!name) return null;
   const isOverseas = name.includes('✈️');
   const cleanName = name.replace('✈️', '').replace('(c)', '').replace('(wk)', '').trim();
   const isCaptain = name.includes('(c)');
   const isKeeper = name.includes('(wk)');
   
+  // Try to find full name in roster for better image matching
+  const rosterMatch = roster?.find(p => {
+      const pName = p.name.toLowerCase();
+      const cName = cleanName.toLowerCase();
+      return pName.includes(cName) || cName.includes(pName);
+  });
+  
+  const imageName = rosterMatch ? rosterMatch.name : cleanName;
+  
   const [error, setError] = useState(false);
-  const imageUrl = getPlayerImageUrl(teamCode, cleanName);
+  const imageUrl = getPlayerImageUrl(teamCode, imageName);
 
   return (
     <div className="flex flex-col items-center gap-1">
@@ -199,3 +196,5 @@ function PlayerPill({ name, teamCode }: { name: string; teamCode: string }) {
     </div>
   );
 }
+
+

@@ -23,10 +23,6 @@ export function LeagueTicker({ teams }: LeagueTickerProps) {
           <span className="text-[10px] text-zinc-500 uppercase font-bold">Total Spent</span>
           <span className="text-sm font-mono text-green-400 font-bold">₹{totalSpent} Cr</span>
         </div>
-        <div className="flex flex-col leading-none">
-          <span className="text-[10px] text-zinc-500 uppercase font-bold">Overseas Slots</span>
-          <span className="text-sm font-mono text-blue-400 font-bold">{totalOverseas}/80</span>
-        </div>
       </div>
 
       <motion.div 

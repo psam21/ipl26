@@ -10,19 +10,6 @@ interface TeamCardProps {
   team: TeamData;
 }
 
-const TEAM_LOGOS: Record<string, string> = {
-  CSK: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Chennai_Super_Kings_Logo.svg/1200px-Chennai_Super_Kings_Logo.svg.png',
-  DC: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Delhi_Capitals_Logo.svg/1200px-Delhi_Capitals_Logo.svg.png',
-  GT: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Gujarat_Titans_Logo.svg/1200px-Gujarat_Titans_Logo.svg.png',
-  KKR: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/1200px-Kolkata_Knight_Riders_Logo.svg.png',
-  LSG: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Lucknow_Super_Giants_IPL_Logo.svg/1200px-Lucknow_Super_Giants_IPL_Logo.svg.png',
-  MI: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/1200px-Mumbai_Indians_Logo.svg.png',
-  PBKS: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Punjab_Kings_Logo.svg/1200px-Punjab_Kings_Logo.svg.png',
-  RR: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Rajasthan_Royals_Logo.svg/1200px-Rajasthan_Royals_Logo.svg.png',
-  RCB: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Royal_Challengers_Bangalore_2020.svg/1200px-Royal_Challengers_Bangalore_2020.svg.png',
-  SRH: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Sunrisers_Hyderabad.svg/1200px-Sunrisers_Hyderabad.svg.png',
-};
-
 export function TeamCard({ team }: TeamCardProps) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -52,15 +39,17 @@ export function TeamCard({ team }: TeamCardProps) {
       >
         <div className="flex justify-between items-start mb-4">
           <div className="flex items-center gap-3">
-            {TEAM_LOGOS[team.code] && (
-              <div className="w-12 h-12 relative flex-shrink-0">
-                <img 
-                  src={TEAM_LOGOS[team.code]} 
-                  alt={`${team.code} logo`}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-            )}
+            <div className="w-12 h-12 relative flex-shrink-0">
+              <img 
+                src={`/logos/teams/${team.code}.png`}
+                alt={`${team.code} logo`}
+                className="w-full h-full object-contain"
+                onError={(e) => {
+                  // Fallback if local image fails
+                  (e.target as HTMLImageElement).style.display = 'none';
+                }}
+              />
+            </div>
             <div>
               <h2 className="text-2xl font-black text-white tracking-tighter">{team.code}</h2>
               <p className="text-xs text-zinc-400 truncate max-w-[120px]">{team.name}</p>

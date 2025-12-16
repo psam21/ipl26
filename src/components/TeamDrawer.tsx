@@ -45,9 +45,9 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
                 </button>
               </div>
 
-              <div className="grid gap-6">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {/* SWOT Analysis */}
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:col-span-2">
                   <div className="bg-green-900/10 border border-green-900/30 p-4 rounded-xl">
                     <div className="flex items-center gap-2 mb-3 text-green-400">
                       <Shield className="w-5 h-5" />
@@ -80,7 +80,7 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
                 </div>
 
                 {/* Best XI Pitch View */}
-                <div className="bg-zinc-950 rounded-xl p-4 border border-zinc-800">
+                <div className="bg-zinc-950 rounded-xl p-4 border border-zinc-800 h-fit">
                   <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
                     <Users className="w-5 h-5 text-blue-400" />
                     Predicted Best XI
@@ -89,7 +89,7 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
                 </div>
 
                 {/* Full Roster */}
-                <div className="bg-zinc-950 rounded-xl p-4 border border-zinc-800">
+                <div className="bg-zinc-950 rounded-xl p-4 border border-zinc-800 h-fit">
                   <h3 className="text-lg font-bold text-white mb-4">Full Squad</h3>
                   <RosterTable roster={team.roster} />
                 </div>

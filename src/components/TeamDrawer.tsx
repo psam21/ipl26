@@ -12,6 +12,14 @@ interface TeamDrawerProps {
   onClose: () => void;
 }
 
+function expandText(text: string) {
+  return text
+    .replace(/\bAR\b/g, 'All Rounder')
+    .replace(/\bARs\b/g, 'All Rounders')
+    .replace(/\bWK\b/g, 'Wicket Keeper')
+    .replace(/\bOS\b/g, 'Overseas');
+}
+
 export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
   return (
     <AnimatePresence>
@@ -57,7 +65,7 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
                       {team.analysis.strongPoints.map((point, i) => (
                         <li key={i} className="text-sm text-zinc-300 flex gap-2">
                           <span className="text-green-500">•</span>
-                          {point}
+                          {expandText(point)}
                         </li>
                       ))}
                     </ul>
@@ -72,7 +80,7 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
                       {team.analysis.weakPoints.map((point, i) => (
                         <li key={i} className="text-sm text-zinc-300 flex gap-2">
                           <span className="text-red-500">•</span>
-                          {point}
+                          {expandText(point)}
                         </li>
                       ))}
                     </ul>
@@ -91,7 +99,7 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
                 {/* Full Roster */}
                 <div className="bg-zinc-950 rounded-xl p-4 border border-zinc-800 h-fit">
                   <h3 className="text-lg font-bold text-white mb-4">Full Squad</h3>
-                  <RosterTable roster={team.roster} teamCode={team.code} />
+                  <RosterTable roster={team.roster} teamCode={team.code} bestXI={team.analysis.bestXI} />
                 </div>
               </div>
             </div>

@@ -70,8 +70,10 @@ function PlayerPill({ name, teamCode }: { name: string; teamCode: string }) {
   return (
     <div className="flex flex-col items-center gap-1">
       <div className={`
-        w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold border-2 overflow-hidden
-        ${isOverseas ? 'bg-purple-900/50 border-purple-500 text-purple-200' : 'bg-zinc-800 border-zinc-600 text-zinc-300'}
+        w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold border-2 overflow-hidden transition-all duration-300
+        ${isOverseas 
+          ? 'bg-purple-900/50 border-purple-500 text-purple-200 shadow-[0_0_12px_rgba(168,85,247,0.6)]' 
+          : 'bg-blue-900/30 border-blue-500 text-blue-200 shadow-[0_0_12px_rgba(59,130,246,0.6)]'}
       `}>
         {!error ? (
           <img 

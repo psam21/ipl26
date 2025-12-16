@@ -34,8 +34,9 @@ A real-time, interactive dashboard for analyzing the IPL 2026 Mega Auction resul
 │   └── types/          # TypeScript definitions
 ├── data_source/        # Raw text files (Auction List & Team Analysis)
 ├── scripts/            # Data processing & scraping scripts
-│   ├── scrape-player-details.ts # Scrapes player DOB and Debut
-│   └── seed-data.ts    # Main data generation script
+│   ├── scrape-all-squads.ts    # Main scraper
+│   ├── find-missing-players.ts # Fuzzy matching for missing data
+│   └── seed-data.ts            # Main data generation script
 └── public/             # Static assets
 ```
 
@@ -55,10 +56,14 @@ npm install
 ### 3. Data Pipeline
 The app uses a local JSON file generated from raw text files and web scraping.
 
-**Step 1: Scrape Player Details (Optional)**
-Fetches Age and IPL Debut data for players.
+**Step 1: Scrape Player Data**
+The project includes robust scraping tools to fetch player images, age, and IPL debut years.
 ```bash
-npx tsx scripts/scrape-player-details.ts
+# Scrape full squads from IPL website
+npx tsx scripts/scrape-all-squads.ts
+
+# Fill in missing data using fuzzy matching (Levenshtein distance)
+npx tsx scripts/find-missing-players.ts
 ```
 
 **Step 2: Seed the Data**

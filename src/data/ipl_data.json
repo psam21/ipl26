@@ -260,7 +260,7 @@
       ],
       "titleProbability": "Top-4: Med–High <br> Title: Med",
       "spof": "MS Dhoni",
-      "bestXI": "**Gaikwad (c)**, **Samson**, Dube, Brevis ✈️, Short ✈️, Dhoni (wk), Overton ✈️, Chahar, Noor ✈️, Khaleel, Mukesh Choudhary"
+      "bestXI": "Gaikwad, Samson, Dube, Brevis ✈️, Short ✈️, **Dhoni (c/wk)**, Overton ✈️, Chahar, Noor ✈️, Khaleel, Mukesh Choudhary"
     }
   },
   {
@@ -1584,7 +1584,7 @@
       ],
       "titleProbability": "Top-4: High <br> Title: High",
       "spof": "Jasprit Bumrah",
-      "bestXI": "**Rohit**, QDK (wk) ✈️, Will Jacks ✈️, Suryakumar Yadav, Tilak, Hardik (c), Naman Dhir, Chahar, Ghazanfar ✈️, Boult ✈️, Bumrah"
+      "bestXI": "**Rohit**, QDK (wk) ✈️, Will Jacks ✈️, Suryakumar Yadav, Tilak, **Hardik (c)**, Naman Dhir, Chahar, Ghazanfar ✈️, Boult ✈️, Bumrah"
     }
   },
   {
@@ -2372,7 +2372,7 @@
       ],
       "titleProbability": "Top-4: Med <br> Title: Med-Low",
       "spof": "Virat Kohli",
-      "bestXI": "**Phil Salt (wk) ✈️**, **Virat Kohli (c)**, Venkatesh, Patidar, Jitesh, Tim David ✈️, Krunal, Bhuvneshwar, Hazlewood ✈️, Yash Dayal, Thushara ✈️"
+      "bestXI": "**Phil Salt (wk) ✈️**, **Virat Kohli**, Venkatesh, **Patidar (c)**, Jitesh, Tim David ✈️, Krunal, Bhuvneshwar, Hazlewood ✈️, Yash Dayal, Thushara ✈️"
     }
   },
   {
@@ -2628,7 +2628,7 @@
       ],
       "titleProbability": "Top-4: High <br> Title: Med–High",
       "spof": "Heinrich Klaasen",
-      "bestXI": "**Travis Head ✈️**, Abhishek, Ishan, Klaasen (wk) ✈️, Livingstone ✈️, Nitish Kumar Reddy, Cummins ✈️ (c), Harshal, Unadkat, Mavi, Zeeshan Ansari"
+      "bestXI": "**Travis Head ✈️**, Abhishek, Ishan, **Klaasen (wk) ✈️**, Livingstone ✈️, Nitish Kumar Reddy, **Cummins ✈️ (c)**, Harshal, Unadkat, Mavi, Zeeshan Ansari"
     }
   }
 ]

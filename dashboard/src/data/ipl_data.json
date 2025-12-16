@@ -1,0 +1,2005 @@
+[
+  {
+    "code": "CSK",
+    "roster": [
+      {
+        "name": "Ruturaj Gaikwad",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "18.00"
+      },
+      {
+        "name": "Sanju Samson",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "18.00"
+      },
+      {
+        "name": "Kartik Sharma",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "14.20"
+      },
+      {
+        "name": "Prashant Veer",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "14.20"
+      },
+      {
+        "name": "Shivam Dube",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "12.00"
+      },
+      {
+        "name": "Noor Ahmad",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "10.00"
+      },
+      {
+        "name": "Rahul Chahar",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "1.00",
+        "soldPrice": "5.20"
+      },
+      {
+        "name": "Khaleel Ahmed",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.80"
+      },
+      {
+        "name": "MS Dhoni",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Anshul Kamboj",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "3.40"
+      },
+      {
+        "name": "Gurjapneet Singh",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.20"
+      },
+      {
+        "name": "Dewald Brevis",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.20"
+      },
+      {
+        "name": "Nathan Ellis",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Akeal Hosein",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Matt Henry",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Matthew Short",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "1.50",
+        "soldPrice": "1.50"
+      },
+      {
+        "name": "Jamie Overton",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.50"
+      },
+      {
+        "name": "Zak Foulkes",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.75",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Sarfaraz Khan",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.75",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Aman Khan",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.40"
+      },
+      {
+        "name": "Ayush Mhatre",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Ramakrishna Ghosh",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Urvil Patel",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Mukesh Choudhary",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Shreyas Gopal",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Chennai Super Kings",
+    "purseSpent": "122.60 Cr",
+    "purseLeft": "2.40 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "8 / 8",
+    "analysis": {
+      "code": "CSK",
+      "strongPoints": [
+        "Stable top order (Gaikwad, Samson, Dhoni)",
+        "Spin control (Noor Ahmad, Rahul Chahar)",
+        "AR depth (Shivam Dube, Overton)"
+      ],
+      "weakPoints": [
+        "Aging core & recovery load (Dhoni, Overton)",
+        "Death bowling inconsistency (Khaleel Ahmed, Mukesh Choudhary)",
+        "Middle-order volatility (Brevis, Sarfaraz Khan)"
+      ],
+      "titleProbability": "Top-4: Med–High <br> Title: Med",
+      "spof": "Dhoni",
+      "bestXI": "**Gaikwad**, Short ✈️, **Samson**, Dube, Brevis ✈️, Dhoni (c), Overton ✈️, Chahar, Noor ✈️, Khaleel, Mukesh Choudhary"
+    }
+  },
+  {
+    "code": "DC",
+    "roster": [
+      {
+        "name": "Axar Patel",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "16.50"
+      },
+      {
+        "name": "KL Rahul",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "14.00"
+      },
+      {
+        "name": "Kuldeep Yadav",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "13.25"
+      },
+      {
+        "name": "Mitchell Starc",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "11.75"
+      },
+      {
+        "name": "T Natarajan",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "10.75"
+      },
+      {
+        "name": "Tristan Stubbs",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "10.00"
+      },
+      {
+        "name": "Auqib Nabi",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "8.40"
+      },
+      {
+        "name": "Mukesh Kumar",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "8.00"
+      },
+      {
+        "name": "Nitish Rana",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.20"
+      },
+      {
+        "name": "Abishek Porel",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Pathum Nissanka",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.75",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Ashutosh Sharma",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "3.80"
+      },
+      {
+        "name": "Lungi Ngidi",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Ben Duckett",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "David Miller",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Sameer Rizvi",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.95"
+      },
+      {
+        "name": "Prithvi Shaw",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.75",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Dushmantha Chameera",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Vipraj Nigam",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.50"
+      },
+      {
+        "name": "Karun Nair",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.50"
+      },
+      {
+        "name": "Madhav Tiwari",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.40"
+      },
+      {
+        "name": "Sahil Parakh",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Tripurana Vijay",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Ajay Mandal",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Delhi Capitals",
+    "purseSpent": "124.65 Cr",
+    "purseLeft": "0.35 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "8 / 8",
+    "analysis": {
+      "code": "DC",
+      "strongPoints": [
+        "Strike bowling (Starc, Kuldeep, Natarajan)",
+        "WK-batting spine (KL Rahul, Stubbs)",
+        "Indian ARs (Axar Patel, Nitish Rana)"
+      ],
+      "weakPoints": [
+        "Pace injury exposure (Starc, Ngidi, Chameera)",
+        "Middle-order softness (Stubbs, Ashutosh Sharma)",
+        "Leadership transition risk (Axar Patel, KL Rahul)"
+      ],
+      "titleProbability": "Top-4: Med <br> Title: Med-Low",
+      "spof": "Starc",
+      "bestXI": "**KL Rahul**, Abishek Porel, Nitish Rana, Stubbs ✈️, Miller ✈️, Ashutosh Sharma, **Axar Patel (c)**, Kuldeep Yadav, Starc ✈️, Natarajan, Mukesh Kumar"
+    }
+  },
+  {
+    "code": "GT",
+    "roster": [
+      {
+        "name": "Rashid Khan",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "18.00"
+      },
+      {
+        "name": "Shubman Gill",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "16.50"
+      },
+      {
+        "name": "Jos Buttler",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "15.75"
+      },
+      {
+        "name": "Mohammed Siraj",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "12.25"
+      },
+      {
+        "name": "Kagiso Rabada",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "10.75"
+      },
+      {
+        "name": "Prasidh Krishna",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "9.50"
+      },
+      {
+        "name": "Sai Sudharsan",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "8.50"
+      },
+      {
+        "name": "Jason Holder",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "7.00"
+      },
+      {
+        "name": "M Shahrukh Khan",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Rahul Tewatia",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Washington Sundar",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "3.20"
+      },
+      {
+        "name": "Sai Kishore",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Tom Banton",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Glenn Phillips",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Gurnoor Brar",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.30"
+      },
+      {
+        "name": "Arshad Khan",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.30"
+      },
+      {
+        "name": "Ashok Sharma",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.90"
+      },
+      {
+        "name": "Jayant Yadav",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Ishant Sharma",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Luke Wood",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.75",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Kumar Kushagra",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.65"
+      },
+      {
+        "name": "Nishant Sindhu",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Manav Suthar",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Anuj Rawat",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Prithvi Raj",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Gujarat Titans",
+    "purseSpent": "123.05 Cr",
+    "purseLeft": "1.95 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "7 / 8",
+    "analysis": {
+      "code": "GT",
+      "strongPoints": [
+        "Elite bowling spine (Rashid Khan, Rabada, Siraj)",
+        "Top-order class (Gill, Buttler, Sudharsan)",
+        "Finishers (Tewatia, Shahrukh)"
+      ],
+      "weakPoints": [
+        "Lower-order fragility (Anuj Rawat, Kushagra)",
+        "OS bowling dependency (Rashid, Rabada)",
+        "Aging backups & legs (Ishant Sharma, Jayant Yadav)"
+      ],
+      "titleProbability": "Top-4: High <br> Title: High",
+      "spof": "Rashid",
+      "bestXI": "**Gill (c)**, Buttler ✈️, Sudharsan, Phillips ✈️, Shahrukh, Tewatia, Rashid ✈️, Rabada ✈️, Siraj, Prasidh, Sai Kishore"
+    }
+  },
+  {
+    "code": "KKR",
+    "roster": [
+      {
+        "name": "Cameron Green",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "25.20"
+      },
+      {
+        "name": "Matheesha Pathirana",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "18.00"
+      },
+      {
+        "name": "Rinku Singh",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "13.00"
+      },
+      {
+        "name": "Varun Chakravarthy",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "12.00"
+      },
+      {
+        "name": "Sunil Narine",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "12.00"
+      },
+      {
+        "name": "Mustafizur Rahman",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "9.20"
+      },
+      {
+        "name": "Harshit Rana",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Ramandeep Singh",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Tejasvi Dahiya",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "3.00"
+      },
+      {
+        "name": "Angkrish Raghuvanshi",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "3.00"
+      },
+      {
+        "name": "Rachin Ravindra",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Finn Allen",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Vaibhav Arora",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.80"
+      },
+      {
+        "name": "Rovman Powell",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.50"
+      },
+      {
+        "name": "Tim Seifert",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "1.50",
+        "soldPrice": "1.50"
+      },
+      {
+        "name": "Ajinkya Rahane",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.50"
+      },
+      {
+        "name": "Akash Deep",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "1.00",
+        "soldPrice": "1.00"
+      },
+      {
+        "name": "Umran Malik",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Rahul Tripathi",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.75",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Manish Pandey",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Anukul Roy",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.40"
+      },
+      {
+        "name": "Daksh Kamra",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Prashant Solanki",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Kartik Tyagi",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Sarthak Ranjan",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Kolkata Knight Riders",
+    "purseSpent": "124.55 Cr",
+    "purseLeft": "0.45 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "8 / 8",
+    "analysis": {
+      "code": "KKR",
+      "strongPoints": [
+        "Premium ARs (Green, Narine, Rachin)",
+        "Mystery bowling (Varun, Pathirana)",
+        "Batting depth (Rinku, Allen)"
+      ],
+      "weakPoints": [
+        "Top-order inconsistency (Rahane, Manish Pandey)",
+        "Cost concentration risk (Green, Pathirana)",
+        "Death-over reliability (Harshit Rana, Vaibhav Arora)"
+      ],
+      "titleProbability": "Top-4: Med–High <br> Title: Med",
+      "spof": "Green",
+      "bestXI": "**Finn Allen (wk) ✈️**, Rachin ✈️, Angkrish Raghuvanshi, Green ✈️, Rinku, Ramandeep, Narine ✈️, Varun, Harshit, Vaibhav, Akash Deep"
+    }
+  },
+  {
+    "code": "LSG",
+    "roster": [
+      {
+        "name": "Rishabh Pant",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "27.00"
+      },
+      {
+        "name": "Nicholas Pooran",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "21.00"
+      },
+      {
+        "name": "Mayank Yadav",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "11.00"
+      },
+      {
+        "name": "Mohammed Shami",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "10.00"
+      },
+      {
+        "name": "Avesh Khan",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "9.75"
+      },
+      {
+        "name": "Josh Inglis",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "8.60"
+      },
+      {
+        "name": "Abdul Samad",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.20"
+      },
+      {
+        "name": "Ayush Badoni",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Mohsin Khan",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Mitchell Marsh",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "3.40"
+      },
+      {
+        "name": "Mukul Choudhary",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "2.60"
+      },
+      {
+        "name": "Shahbaz Ahmed",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.40"
+      },
+      {
+        "name": "Akshat Raghuwanshi",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "2.20"
+      },
+      {
+        "name": "Wanindu Hasaranga",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Aiden Markram",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Anrich Nortje",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Naman Tiwari",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "1.00"
+      },
+      {
+        "name": "Manimaran Siddharth",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Matthew Breetzke",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Digvesh Rathi",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Arshin Kulkarni",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Prince Yadav",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Akash Singh",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Arjun Tendulkar",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Himmat Singh",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Lucknow Super Giants",
+    "purseSpent": "120.45 Cr",
+    "purseLeft": "4.55 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "7 / 8",
+    "analysis": {
+      "code": "LSG",
+      "strongPoints": [
+        "Explosive batting (Pant, Pooran)",
+        "Raw pace ceiling (Mayank Yadav, Shami)",
+        "Match-winner density (Pant, Pooran, Marsh)"
+      ],
+      "weakPoints": [
+        "Injury-heavy core (Shami, Nortje, Marsh)",
+        "Spin thinness (Hasaranga, Siddharth)",
+        "Role overlap risk (Pooran, Inglis, Badoni)"
+      ],
+      "titleProbability": "Top-4: Med <br> Title: Med-Low",
+      "spof": "Pant",
+      "bestXI": "Marsh ✈️, **Pant (c)**, Markram ✈️, Pooran ✈️, Badoni, Samad, Hasaranga ✈️, Shami, Mayank Yadav, Avesh Khan, Mohsin Khan"
+    }
+  },
+  {
+    "code": "MI",
+    "roster": [
+      {
+        "name": "Jasprit Bumrah",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "18.00"
+      },
+      {
+        "name": "Hardik Pandya",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "16.35"
+      },
+      {
+        "name": "Suryakumar Yadav",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "16.35"
+      },
+      {
+        "name": "Rohit Sharma",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "16.30"
+      },
+      {
+        "name": "Trent Boult",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "12.50"
+      },
+      {
+        "name": "Deepak Chahar",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "9.25"
+      },
+      {
+        "name": "Tilak Varma",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "8.00"
+      },
+      {
+        "name": "Naman Dhir",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "5.25"
+      },
+      {
+        "name": "Will Jacks",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "5.25"
+      },
+      {
+        "name": "AM Ghazanfar",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.80"
+      },
+      {
+        "name": "Sherfane Rutherford",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.60"
+      },
+      {
+        "name": "Mitchell Santner",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Shardul Thakur",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Ryan Rickelton",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.00"
+      },
+      {
+        "name": "Quinton de Kock",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "1.00",
+        "soldPrice": "1.00"
+      },
+      {
+        "name": "Corbin Bosch",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Robin Minz",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.65"
+      },
+      {
+        "name": "Mohd Izhar",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Danish Malewar",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Raj Bawa",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Ashwani Kumar",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Atharva Ankolekar",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Raghu Sharma",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Mayank Markande",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Mayank Rawat",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Mumbai Indians",
+    "purseSpent": "124.45 Cr",
+    "purseLeft": "0.55 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "8 / 8",
+    "analysis": {
+      "code": "MI",
+      "strongPoints": [
+        "Elite Indian core (Bumrah, Rohit, SKY)",
+        "New-ball dominance (Bumrah, Boult, Chahar)",
+        "Big-match temperament (Hardik, SKY)"
+      ],
+      "weakPoints": [
+        "Aging workload risk (Rohit, Boult, Chahar)",
+        "Lower-order hitting depth (Santner, Bosch)",
+        "Limited attacking spin (Markande, Ghazanfar)"
+      ],
+      "titleProbability": "Top-4: High <br> Title: High",
+      "spof": "Bumrah",
+      "bestXI": "**Rohit**, Will Jacks ✈️, SKY, Tilak, Hardik (c), Rickelton ✈️, Shardul, Bumrah, Boult ✈️, Chahar, Markande"
+    }
+  },
+  {
+    "code": "PBKS",
+    "roster": [
+      {
+        "name": "Shreyas Iyer",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "26.75"
+      },
+      {
+        "name": "Arshdeep Singh",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "18.00"
+      },
+      {
+        "name": "Yuzvendra Chahal",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "18.00"
+      },
+      {
+        "name": "Marcus Stoinis",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "11.00"
+      },
+      {
+        "name": "Marco Jansen",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "7.00"
+      },
+      {
+        "name": "Shashank Singh",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "5.50"
+      },
+      {
+        "name": "Ben Dwarshuis",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "1.00",
+        "soldPrice": "4.40"
+      },
+      {
+        "name": "Nehal Wadhera",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.20"
+      },
+      {
+        "name": "Prabhsimran Singh",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Priyansh Arya",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "3.80"
+      },
+      {
+        "name": "Mitchell Owen",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "3.00"
+      },
+      {
+        "name": "Cooper Connolly",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "3.00"
+      },
+      {
+        "name": "Azmatullah Omarzai",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.40"
+      },
+      {
+        "name": "Lockie Ferguson",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Vijaykumar Vyshak",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.80"
+      },
+      {
+        "name": "Yash Thakur",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.60"
+      },
+      {
+        "name": "Harpreet Brar",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.50"
+      },
+      {
+        "name": "Vishnu Vinod",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.95"
+      },
+      {
+        "name": "Xavier Bartlett",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.80"
+      },
+      {
+        "name": "Vishal Nishad",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Suryansh Shedge",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Pyla Avinash",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Musheer Khan",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Harnoor Singh",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Praveen Dubey",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Punjab Kings",
+    "purseSpent": "121.50 Cr",
+    "purseLeft": "3.50 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "8 / 8",
+    "analysis": {
+      "code": "PBKS",
+      "strongPoints": [
+        "Indian bowling spine (Arshdeep, Chahal)",
+        "AR volume (Stoinis, Jansen, Shashank)",
+        "Batting anchor (Shreyas Iyer)"
+      ],
+      "weakPoints": [
+        "Overseas batting ceiling (Omarzai, Owen)",
+        "Finishing reliability (Prabhsimran, Wadhera)",
+        "Death bowling depth (Vyshak, Yash Thakur)"
+      ],
+      "titleProbability": "Top-4: Med-Low <br> Title: Low",
+      "spof": "Shreyas",
+      "bestXI": "**Prabhsimran**, **Shreyas (c)**, Wadhera, Stoinis ✈️, Shashank, Jansen ✈️, Omarzai ✈️, Chahal, Arshdeep, Ferguson ✈️, Vyshak"
+    }
+  },
+  {
+    "code": "RR",
+    "roster": [
+      {
+        "name": "Yashasvi Jaiswal",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "18.00"
+      },
+      {
+        "name": "Dhruv Jurel",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "14.00"
+      },
+      {
+        "name": "Riyan Parag",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "14.00"
+      },
+      {
+        "name": "Ravindra Jadeja",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "14.00"
+      },
+      {
+        "name": "Jofra Archer",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "12.50"
+      },
+      {
+        "name": "Shimron Hetmyer",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "11.00"
+      },
+      {
+        "name": "Ravi Bishnoi",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "7.20"
+      },
+      {
+        "name": "Tushar Deshpande",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "6.50"
+      },
+      {
+        "name": "Sandeep Sharma",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "4.00"
+      },
+      {
+        "name": "Nandre Burger",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "3.50"
+      },
+      {
+        "name": "Sam Curran",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.40"
+      },
+      {
+        "name": "Adam Milne",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.40"
+      },
+      {
+        "name": "Kwena Maphaka",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.50"
+      },
+      {
+        "name": "Vaibhav Suryavanshi",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.10"
+      },
+      {
+        "name": "Donovan Ferreira",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.00"
+      },
+      {
+        "name": "Ravi Singh",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.95"
+      },
+      {
+        "name": "Sushant Mishra",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.90"
+      },
+      {
+        "name": "Shubham Dubey",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.80"
+      },
+      {
+        "name": "Kuldeep Sen",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.75",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Yudhvir Singh",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.35"
+      },
+      {
+        "name": "Yash Raj Punja",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Brijesh Sharma",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Vignesh Puthur",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Aman Rao",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Lhuan-dre Pretorius",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Rajasthan Royals",
+    "purseSpent": "122.35 Cr",
+    "purseLeft": "2.65 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "8 / 8",
+    "analysis": {
+      "code": "RR",
+      "strongPoints": [
+        "AR cluster (Jadeja, Curran, Parag)",
+        "Indian batting (Jaiswal, Jurel)",
+        "Strike bowling (Archer, Bishnoi)"
+      ],
+      "weakPoints": [
+        "Fitness dependency (Archer)",
+        "Overseas batting swings (Hetmyer, Ferreira)",
+        "Middle-order congestion (Parag, Curran, Jurel)"
+      ],
+      "titleProbability": "Top-4: Med–High <br> Title: Med",
+      "spof": "Archer",
+      "bestXI": "**Jaiswal**, **Jurel**, Parag, Jadeja, Curran ✈️, Hetmyer ✈️, Archer ✈️, Bishnoi, Sandeep, Tushar, Burger ✈️"
+    }
+  },
+  {
+    "code": "RCB",
+    "roster": [
+      {
+        "name": "Virat Kohli",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "21.00"
+      },
+      {
+        "name": "Josh Hazlewood",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "12.50"
+      },
+      {
+        "name": "Phil Salt",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "11.50"
+      },
+      {
+        "name": "Rajat Patidar",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "11.00"
+      },
+      {
+        "name": "Jitesh Sharma",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "11.00"
+      },
+      {
+        "name": "Bhuvneshwar Kumar",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "10.75"
+      },
+      {
+        "name": "Venkatesh Iyer",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "7.00"
+      },
+      {
+        "name": "Rasikh Salam",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "6.00"
+      },
+      {
+        "name": "Krunal Pandya",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "5.75"
+      },
+      {
+        "name": "Mangesh Yadav",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "5.20"
+      },
+      {
+        "name": "Yash Dayal",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "5.00"
+      },
+      {
+        "name": "Tim David",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "3.00"
+      },
+      {
+        "name": "Suyash Sharma",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.60"
+      },
+      {
+        "name": "Jacob Bethell",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.60"
+      },
+      {
+        "name": "Devdutt Padikkal",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Jacob Duffy",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "2.00"
+      },
+      {
+        "name": "Nuwan Thushara",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.60"
+      },
+      {
+        "name": "Romario Shepherd",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.50"
+      },
+      {
+        "name": "Jordan Cox",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.75",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Swapnil Singh",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.50"
+      },
+      {
+        "name": "Satvik Deswal",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Abhinandan Singh",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Vicky Ostwal",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Kanishk Chouhan",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Vihaan Malhotra",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Royal Challengers Bengaluru",
+    "purseSpent": "124.75 Cr",
+    "purseLeft": "0.25 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "8 / 8",
+    "analysis": {
+      "code": "RCB",
+      "strongPoints": [
+        "Top-order strength (Kohli, Salt, Patidar)",
+        "New-ball skill (Hazlewood, Bhuvi)",
+        "AR flexibility (Krunal, Venkatesh)"
+      ],
+      "weakPoints": [
+        "Death-over trust (Yash Dayal, Rasikh Salam)",
+        "Middle-order collapses (Tim David, Jitesh Sharma)",
+        "Run dependency (Virat Kohli)"
+      ],
+      "titleProbability": "Top-4: Med <br> Title: Med-Low",
+      "spof": "Kohli",
+      "bestXI": "**Phil Salt ✈️**, **Virat Kohli**, Venkatesh, Patidar, Jitesh, Tim David ✈️, Krunal, Bhuvi, Hazlewood ✈️, Yash Dayal, Thushara ✈️"
+    }
+  },
+  {
+    "code": "SRH",
+    "roster": [
+      {
+        "name": "Heinrich Klaasen",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "23.00"
+      },
+      {
+        "name": "Pat Cummins",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "18.00"
+      },
+      {
+        "name": "Abhishek Sharma",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "14.00"
+      },
+      {
+        "name": "Travis Head",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "14.00"
+      },
+      {
+        "name": "Liam Livingstone",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "2.00",
+        "soldPrice": "13.00"
+      },
+      {
+        "name": "Ishan Kishan",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "11.25"
+      },
+      {
+        "name": "Harshal Patel",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "8.00"
+      },
+      {
+        "name": "Nitish Kumar Reddy",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "6.00"
+      },
+      {
+        "name": "Jack Edwards",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.50",
+        "soldPrice": "3.00"
+      },
+      {
+        "name": "Salil Arora",
+        "type": "BAT",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "1.50"
+      },
+      {
+        "name": "Eshan Malinga",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.20"
+      },
+      {
+        "name": "Brydon Carse",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.00"
+      },
+      {
+        "name": "Jaydev Unadkat",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "1.00"
+      },
+      {
+        "name": "Shivam Mavi",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.75",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Kamindu Mendis",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.75"
+      },
+      {
+        "name": "Zeeshan Ansari",
+        "type": "BOWL",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.40"
+      },
+      {
+        "name": "Onkar Tarmale",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Amit Kumar",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Shivang Kumar",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Krains Fuletra",
+        "type": "AR",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Aniket Verma",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Sakib Hussain",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Ravichandran Smaran",
+        "type": "BAT",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Praful Hinge",
+        "type": "BOWL",
+        "isNew": true,
+        "basePrice": "0.30",
+        "soldPrice": "0.30"
+      },
+      {
+        "name": "Harsh Dubey",
+        "type": "AR",
+        "isNew": false,
+        "basePrice": "-",
+        "soldPrice": "0.30"
+      }
+    ],
+    "name": "Sunrisers Hyderabad",
+    "purseSpent": "119.55 Cr",
+    "purseLeft": "5.45 Cr",
+    "playersBought": "25 / 25",
+    "overseasBuys": "8 / 8",
+    "analysis": {
+      "code": "SRH",
+      "strongPoints": [
+        "Destructive batting (Head, Klaasen, Livingstone)",
+        "Captain aggression (Cummins)",
+        "Power ARs (Abhishek, Nitish Reddy)"
+      ],
+      "weakPoints": [
+        "Bowling depth beyond XI (Unadkat, Mavi)",
+        "High-risk batting variance (Head, Klaasen)",
+        "Thin Indian bench (Salil Arora, Aniket Verma)"
+      ],
+      "titleProbability": "Top-4: High <br> Title: Med–High",
+      "spof": "Klaasen",
+      "bestXI": "**Travis Head ✈️**, Abhishek, Ishan, Klaasen ✈️, Livingstone ✈️, Nitish Reddy, Cummins ✈️ (c), Harshal, Unadkat, Mavi, Zeeshan Ansari"
+    }
+  }
+]

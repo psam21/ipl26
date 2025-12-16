@@ -26,9 +26,9 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
           />
           <motion.div
             layoutId={`card-${team.code}`}
-            className="fixed inset-y-0 right-0 w-full max-w-2xl bg-zinc-900 border-l border-zinc-800 z-50 overflow-y-auto shadow-2xl"
+            className="fixed inset-0 md:inset-10 z-50 bg-zinc-900 border border-zinc-800 md:rounded-2xl shadow-2xl overflow-hidden flex flex-col"
           >
-            <div className="p-6">
+            <div className="h-full overflow-y-auto p-6">
               <div className="flex justify-between items-center mb-8">
                 <div>
                   <h2 className="text-4xl font-black text-white tracking-tighter">{team.name}</h2>

@@ -179,7 +179,7 @@ async function parseAuctionFile(): Promise<TeamStats[]> {
             soldPrice: sold,
             age: details?.age,
             totalYears: details?.totalYears,
-            url: url ? `https://www.iplt20.com${url}` : undefined
+            url: url ? url.trim() : undefined
         });
       }
       i++; // Advance past details line

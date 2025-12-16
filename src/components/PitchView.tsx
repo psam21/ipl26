@@ -144,7 +144,7 @@ function MiniPlayerPill({ player, teamCode, align }: { player: Player; teamCode:
         )}
       </div>
       <span className="text-[9px] text-white/80 font-medium whitespace-nowrap shadow-sm bg-black/30 px-1 rounded">
-        {player.name.split(' ').pop()}
+        {player.name}
       </span>
     </div>
   );
@@ -189,7 +189,7 @@ function PlayerPill({ name, teamCode, roster }: { name: string; teamCode: string
         )}
       </div>
       <div className="text-[10px] font-medium text-zinc-400 bg-black/40 px-2 py-0.5 rounded-full backdrop-blur-sm whitespace-nowrap flex gap-1">
-        {cleanName}
+        {rosterMatch ? rosterMatch.name : cleanName}
         {isCaptain && <span className="text-yellow-500">©</span>}
         {isKeeper && <span className="text-blue-500">🧤</span>}
       </div>

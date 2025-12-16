@@ -8,8 +8,6 @@ interface LeagueTickerProps {
 }
 
 export function LeagueTicker({ teams }: LeagueTickerProps) {
-  const totalSpent = teams.reduce((acc, team) => acc + parseFloat(team.purseSpent), 0).toFixed(2);
-  
   // Find top 5 most expensive players across league
   const allPlayers = teams.flatMap(t => t.roster.map(p => ({ ...p, team: t.code })));
   const topBuys = allPlayers
@@ -20,8 +18,7 @@ export function LeagueTicker({ teams }: LeagueTickerProps) {
     <div className="w-full bg-zinc-950 border-b border-zinc-800 overflow-hidden whitespace-nowrap py-2 flex items-center">
       <div className="flex items-center gap-6 px-4 border-r border-zinc-800 z-10 bg-zinc-950">
         <div className="flex flex-col leading-none">
-          <span className="text-[10px] text-zinc-500 uppercase font-bold">Total Spent</span>
-          <span className="text-sm font-mono text-green-400 font-bold">₹{totalSpent} Cr</span>
+          <span className="text-[10px] text-zinc-500 uppercase font-bold">Top Buys</span>
         </div>
       </div>
 

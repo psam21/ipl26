@@ -20,10 +20,10 @@ export function TeamCard({ team }: TeamCardProps) {
     return 'border-red-500 shadow-red-500/20';
   };
 
-  // Find most expensive player
-  const mostExpensive = [...team.roster].sort((a, b) => 
-    parseFloat(b.soldPrice) - parseFloat(a.soldPrice)
-  )[0];
+  // Find top 3 most expensive players
+  const topBuys = [...team.roster]
+    .sort((a, b) => parseFloat(b.soldPrice) - parseFloat(a.soldPrice))
+    .slice(0, 3);
 
   return (
     <>
@@ -34,7 +34,7 @@ export function TeamCard({ team }: TeamCardProps) {
         className={`
           relative overflow-hidden rounded-xl border-2 bg-zinc-900 p-4 cursor-pointer transition-colors
           ${getProbabilityColor(team.analysis.titleProbability)}
-          hover:bg-zinc-800/50
+          hover:bg-zinc-800/50 flex flex-col h-full
         `}
       >
         <div className="flex justify-between items-start mb-4">
@@ -57,19 +57,23 @@ export function TeamCard({ team }: TeamCardProps) {
           </div>
           <div className="text-right">
             <div className="text-xs text-zinc-500 uppercase font-bold">Purse Left</div>
-            <div className="text-green-400 font-mono font-bold">{team.purseLeft} Cr</div>
+            <div className="text-green-400 font-mono font-bold">{team.purseLeft.replace(' Cr', '')} Cr</div>
           </div>
         </div>
 
-        <div className="space-y-3">
-          <div className="flex items-center justify-between bg-zinc-950/50 p-2 rounded-lg">
-            <div className="flex items-center gap-2">
+        <div className="space-y-3 flex-grow">
+          <div className="bg-zinc-950/50 p-2 rounded-lg">
+            <div className="flex items-center gap-2 mb-2">
               <TrendingUp className="w-4 h-4 text-blue-400" />
-              <span className="text-xs text-zinc-300">Top Buy</span>
+              <span className="text-xs text-zinc-300">Top Buys</span>
             </div>
-            <div className="text-right">
-              <div className="text-xs font-bold text-white">{mostExpensive?.name}</div>
-              <div className="text-[10px] text-zinc-500">{mostExpensive?.soldPrice} Cr</div>
+            <div className="space-y-1">
+              {topBuys.map((player, i) => (
+                <div key={i} className="flex justify-between items-center text-xs">
+                  <span className="text-zinc-300 truncate max-w-[120px]">{player.name}</span>
+                  <span className="text-zinc-500 font-mono">{player.soldPrice} Cr</span>
+                </div>
+              ))}
             </div>
           </div>
 
@@ -79,6 +83,11 @@ export function TeamCard({ team }: TeamCardProps) {
               <span className="text-xs text-zinc-300">SPOF</span>
             </div>
             <div className="text-xs font-bold text-red-200">{team.analysis.spof}</div>
+          </div>
+
+          <div className="bg-zinc-950/50 p-2 rounded-lg border border-zinc-800">
+             <div className="text-[10px] text-zinc-500 uppercase mb-1">Title / Top-4 Probability</div>
+             <div className="text-xs font-medium text-zinc-300">{team.analysis.titleProbability}</div>
           </div>
         </div>
 

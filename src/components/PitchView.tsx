@@ -16,7 +16,7 @@ export function PitchView({ bestXI, teamCode, roster = [] }: PitchViewProps) {
   const xiPlayers = bestXI.split(',').map(p => p.trim().replace(/\*\*/g, ''));
   
   // Helper to clean names for comparison
-  const cleanName = (n: string) => n.replace('✈️', '').replace('(c)', '').replace('(wk)', '').replace(/\*\*/g, '').trim().toLowerCase();
+  const cleanName = (n: string) => n.replace('✈️', '').replace(/\(.*\)/g, '').replace(/\*\*/g, '').trim().toLowerCase();
   
   // Identify reserves
   const xiCleanNames = new Set(xiPlayers.map(cleanName));
@@ -153,9 +153,9 @@ function MiniPlayerPill({ player, teamCode, align }: { player: Player; teamCode:
 function PlayerPill({ name, teamCode, roster }: { name: string; teamCode: string; roster?: Player[] }) {
   if (!name) return null;
   const isOverseas = name.includes('✈️');
-  const cleanName = name.replace('✈️', '').replace('(c)', '').replace('(wk)', '').trim();
-  const isCaptain = name.includes('(c)');
-  const isKeeper = name.includes('(wk)');
+  const cleanName = name.replace('✈️', '').replace(/\(.*\)/g, '').replace(/\*\*/g, '').trim();
+  const isCaptain = name.includes('(c)') || name.includes('(c/wk)');
+  const isKeeper = name.includes('(wk)') || name.includes('(c/wk)');
   
   // Try to find full name in roster for better image matching
   const rosterMatch = roster?.find(p => {

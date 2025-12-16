@@ -11,13 +11,13 @@ export function PitchView({ bestXI }: PitchViewProps) {
   const players = bestXI.split(',').map(p => p.trim().replace(/\*\*/g, ''));
 
   return (
-    <div className="relative w-full aspect-[3/4] bg-green-900/20 rounded-lg border border-green-800/30 overflow-hidden p-4">
+    <div className="relative w-full h-[400px] bg-green-900/20 rounded-lg border border-green-800/30 overflow-hidden p-4">
       {/* Pitch Markings */}
-      <div className="absolute inset-x-12 top-12 bottom-12 border-2 border-green-800/20 rounded-full" />
+      <div className="absolute inset-x-12 top-8 bottom-8 border-2 border-green-800/20 rounded-full" />
       <div className="absolute inset-x-24 top-0 bottom-0 border-x-2 border-dashed border-green-800/10" />
       
       {/* Players Grid - Simple visualization for now */}
-      <div className="relative h-full flex flex-col justify-between py-4">
+      <div className="relative h-full flex flex-col justify-between py-2">
         {/* Openers */}
         <div className="flex justify-center gap-8">
           <PlayerPill name={players[0]} />

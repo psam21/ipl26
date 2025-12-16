@@ -13,7 +13,7 @@ export function RosterTable({ roster }: RosterTableProps) {
   );
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto max-h-[400px] overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-transparent">
       <table className="w-full text-sm text-left">
         <thead className="text-xs text-zinc-500 uppercase bg-zinc-900/50">
           <tr>

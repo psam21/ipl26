@@ -56,8 +56,8 @@ export function TeamCard({ team }: TeamCardProps) {
             </div>
           </div>
           <div className="text-right">
-            <div className="text-xs text-zinc-500 uppercase font-bold">Purse Spent</div>
-            <div className="text-green-400 font-mono font-bold">{team.purseSpent}</div>
+            <div className="text-[10px] text-zinc-500 uppercase font-bold">Purse Spent</div>
+            <div className="text-green-400 font-mono font-bold text-sm">{team.purseSpent}</div>
           </div>
         </div>
 

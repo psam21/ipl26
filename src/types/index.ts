@@ -6,6 +6,7 @@ export interface Player {
   soldPrice: string;
   age?: number;
   totalYears?: number;
+  url?: string;
 }
 
 export interface TeamAnalysis {

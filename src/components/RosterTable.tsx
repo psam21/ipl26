@@ -63,7 +63,18 @@ export function RosterTable({ roster, teamCode, bestXI }: RosterTableProps) {
               <td className="px-4 py-3 font-medium text-zinc-200 flex items-center gap-3">
                 <PlayerAvatar teamCode={teamCode} name={player.name} isOverseas={isOverseas} />
                 <div>
-                  {player.name}
+                  {player.url ? (
+                    <a 
+                      href={player.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:text-blue-400 hover:underline transition-colors"
+                    >
+                      {player.name}
+                    </a>
+                  ) : (
+                    player.name
+                  )}
                   {player.isNew && (
                     <span className="ml-2 text-[10px] bg-blue-900/30 text-blue-400 px-1.5 py-0.5 rounded border border-blue-900/50">
                       NEW

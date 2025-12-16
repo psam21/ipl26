@@ -11,6 +11,7 @@ interface Player {
   soldPrice: string;
   age?: number;
   totalYears?: number;
+  url?: string;
 }
 
 interface TeamStats {
@@ -36,6 +37,7 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 const AUCTION_FILE = path.join(PROJECT_ROOT, 'data_source', 'IPL 2026 Auction Complete Players List.txt');
 const ANALYSIS_FILE = path.join(PROJECT_ROOT, 'data_source', 'IPL 2026 Team Analysis.txt');
 const SCRAPED_PLAYERS_FILE = path.join(PROJECT_ROOT, 'src', 'data', 'scraped_players.json');
+const PLAYER_LINKS_FILE = path.join(PROJECT_ROOT, 'src', 'data', 'player_links.json');
 
 async function parseAuctionFile(): Promise<TeamStats[]> {
   const content = fs.readFileSync(AUCTION_FILE, 'utf-8');
@@ -47,6 +49,13 @@ async function parseAuctionFile(): Promise<TeamStats[]> {
     scrapedPlayers = JSON.parse(fs.readFileSync(SCRAPED_PLAYERS_FILE, 'utf-8'));
   }
   const playerDetailsMap = new Map(scrapedPlayers.map(p => [p.name.toLowerCase(), p]));
+
+  // Load player links
+  let playerLinks: any[] = [];
+  if (fs.existsSync(PLAYER_LINKS_FILE)) {
+    playerLinks = JSON.parse(fs.readFileSync(PLAYER_LINKS_FILE, 'utf-8'));
+  }
+  const playerLinksMap = new Map(playerLinks.map(p => [p.name.toLowerCase(), p.url]));
 
   const teams: TeamStats[] = [];
   let currentTeam: Partial<TeamStats> | null = null;
@@ -159,6 +168,7 @@ async function parseAuctionFile(): Promise<TeamStats[]> {
 
       // Look up details
       const details = playerDetailsMap.get(playerName.toLowerCase());
+      const url = playerLinksMap.get(playerName.toLowerCase());
 
       if (currentTeam.roster) {
         currentTeam.roster.push({
@@ -168,7 +178,8 @@ async function parseAuctionFile(): Promise<TeamStats[]> {
             basePrice: base,
             soldPrice: sold,
             age: details?.age,
-            totalYears: details?.totalYears
+            totalYears: details?.totalYears,
+            url: url ? `https://www.iplt20.com${url}` : undefined
         });
       }
       i++; // Advance past details line

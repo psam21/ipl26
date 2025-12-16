@@ -9,7 +9,6 @@ interface LeagueTickerProps {
 
 export function LeagueTicker({ teams }: LeagueTickerProps) {
   const totalSpent = teams.reduce((acc, team) => acc + parseFloat(team.purseSpent), 0).toFixed(2);
-  const totalOverseas = teams.reduce((acc, team) => acc + parseInt(team.overseasBuys.split('/')[0]), 0);
   
   // Find top 5 most expensive players across league
   const allPlayers = teams.flatMap(t => t.roster.map(p => ({ ...p, team: t.code })));

@@ -10,8 +10,8 @@ A real-time, interactive dashboard for analyzing the IPL 2026 Mega Auction resul
 - **Bento Grid Dashboard**: Compact, responsive cards for all 10 teams displaying purse spent, squad size, and key risks (SPOF).
 - **Interactive Team Drawers**: Drill down into any team to view:
   - **SWOT Analysis**: Strengths and Weaknesses parsed from expert analysis.
-  - **Pitch View**: Visual representation of the "Best XI" on a cricket field, with sidebars showing squad depth (reserves).
-  - **Roster Table**: Sortable list of all players with price tags, Age, IPL Experience, and "New" player badges.
+  - **Pitch View**: Visual representation of the "Best XI" on a cricket field. Features full player names, role icons (© Captain, 🧤 Keeper), and styled reserve players.
+  - **Roster Table**: Sortable list of all players with price tags, Age, IPL Experience, clickable profiles, and "New" player badges.
 - **Visual Analytics**: Color-coded indicators for Title Probability (Green/Yellow/Red) and detailed probability breakdowns.
 
 ## 🛠️ Tech Stack

@@ -3,6 +3,7 @@
 import { getPlayerImageUrl } from '@/utils/images';
 import { useState } from 'react';
 import { Player } from '@/types';
+import { User } from 'lucide-react';
 
 interface PitchViewProps {
   bestXI: string;
@@ -62,28 +63,28 @@ export function PitchView({ bestXI, teamCode, roster = [] }: PitchViewProps) {
       <div className="absolute inset-x-32 top-0 bottom-0 border-x-2 border-dashed border-green-800/10" />
       
       {/* Left Sidebar Reserves */}
-      <div className="absolute left-2 top-4 bottom-4 w-20 flex flex-col justify-between py-4 z-10">
-        <div className="flex flex-col gap-2 items-center">
-            {leftBatters.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+      <div className="absolute left-2 top-4 bottom-4 w-24 flex flex-col justify-between py-4 z-10">
+        <div className="flex flex-col gap-2 items-start pl-2">
+            {leftBatters.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} align="right" />)}
         </div>
-        <div className="flex flex-col gap-2 items-center">
-            {leftARs.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        <div className="flex flex-col gap-2 items-start pl-2">
+            {leftARs.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} align="right" />)}
         </div>
-        <div className="flex flex-col gap-2 items-center">
-            {leftBowlers.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        <div className="flex flex-col gap-2 items-start pl-2">
+            {leftBowlers.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} align="right" />)}
         </div>
       </div>
 
       {/* Right Sidebar Reserves */}
-      <div className="absolute right-2 top-4 bottom-4 w-20 flex flex-col justify-between py-4 z-10">
-        <div className="flex flex-col gap-2 items-center">
-            {rightBatters.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+      <div className="absolute right-2 top-4 bottom-4 w-24 flex flex-col justify-between py-4 z-10">
+        <div className="flex flex-col gap-2 items-end pr-2">
+            {rightBatters.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} align="left" />)}
         </div>
-        <div className="flex flex-col gap-2 items-center">
-            {rightARs.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        <div className="flex flex-col gap-2 items-end pr-2">
+            {rightARs.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} align="left" />)}
         </div>
-        <div className="flex flex-col gap-2 items-center">
-            {rightBowlers.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} />)}
+        <div className="flex flex-col gap-2 items-end pr-2">
+            {rightBowlers.map((p, i) => <MiniPlayerPill key={i} player={p} teamCode={teamCode} align="left" />)}
         </div>
       </div>
 
@@ -124,45 +125,43 @@ export function PitchView({ bestXI, teamCode, roster = [] }: PitchViewProps) {
   );
 }
 
-function MiniPlayerPill({ player, teamCode }: { player: Player; teamCode: string }) {
-    const [error, setError] = useState(false);
-    const imageUrl = getPlayerImageUrl(teamCode, player.name);
-    
-    // Infer overseas from name if possible, but roster doesn't have it. 
-    // We can't easily know for reserves unless we check against a known list or if the user provided it.
-    // For now, default to Indian style unless we know otherwise.
-    // Actually, we can check if the name is in the Best XI string with a plane icon, but these are reserves.
-    // So we don't know. We'll just use the blue style for all reserves for now, or maybe a neutral one.
-    const isOverseas = false; // Default for reserves as we don't have the data easily available
+function MiniPlayerPill({ player, teamCode, align = 'right' }: { player: Player; teamCode: string; align?: 'left' | 'right' }) {
+  const [error, setError] = useState(false);
+  const imageUrl = getPlayerImageUrl(teamCode, player.name);
+  
+  // Infer overseas from name if possible, but roster doesn't have it. 
+  // We can't easily know for reserves unless we check against a known list or if the user provided it.
+  // For now, default to Indian style unless we know otherwise.
+  // Actually, we can check if the name is in the Best XI string with a plane icon, but these are reserves.
+  // So we don't know. We'll just use the blue style for all reserves for now, or maybe a neutral one.
+  const isOverseas = false; // Default for reserves as we don't have the data easily available
 
-    return (
-        <div className="group relative">
-            <div className={`
-                w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold border-2 overflow-hidden transition-all duration-300
-                ${isOverseas 
-                ? 'bg-purple-900/50 border-purple-500 text-purple-200' 
-                : 'bg-zinc-800 border-zinc-600 text-zinc-300'}
-                hover:scale-125 hover:z-20 cursor-help
-            `}>
-                {!error ? (
-                <img 
-                    src={imageUrl} 
-                    alt={player.name}
-                    className="w-full h-full object-cover"
-                    onError={() => setError(true)}
-                />
-                ) : (
-                player.name.charAt(0)
-                )}
-            </div>
-            {/* Tooltip */}
-            <div className="absolute left-full ml-2 top-1/2 -translate-y-1/2 bg-black/80 text-white text-[10px] px-2 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none z-30">
-                {player.name} ({player.type})
-            </div>
-        </div>
-    );
+  return (
+    <div className={`group relative flex items-center gap-2 ${align === 'left' ? 'flex-row-reverse' : 'flex-row'}`}>
+      <div className={`
+        w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold border-2 overflow-hidden transition-all duration-300 shrink-0
+        ${isOverseas 
+          ? 'bg-purple-900/50 border-purple-500 text-purple-200' 
+          : 'bg-zinc-800 border-zinc-600 text-zinc-300'}
+        hover:scale-125 hover:z-20 cursor-help
+      `}>
+        {!error ? (
+          <img 
+            src={imageUrl} 
+            alt={player.name}
+            className="w-full h-full object-cover"
+            onError={() => setError(true)}
+          />
+        ) : (
+          <User className="w-3 h-3 text-zinc-500" />
+        )}
+      </div>
+      <span className="text-[9px] text-white/80 font-medium whitespace-nowrap shadow-sm bg-black/30 px-1 rounded">
+        {player.name.split(' ').pop()}
+      </span>
+    </div>
+  );
 }
-
 function PlayerPill({ name, teamCode }: { name: string; teamCode: string }) {
   if (!name) return null;
   const isOverseas = name.includes('✈️');
@@ -189,7 +188,7 @@ function PlayerPill({ name, teamCode }: { name: string; teamCode: string }) {
             onError={() => setError(true)}
           />
         ) : (
-          cleanName.charAt(0)
+          <User className="w-4 h-4 text-zinc-500" />
         )}
       </div>
       <div className="text-[10px] font-medium text-zinc-400 bg-black/40 px-2 py-0.5 rounded-full backdrop-blur-sm whitespace-nowrap flex gap-1">

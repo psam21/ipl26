@@ -56,8 +56,8 @@ export function TeamCard({ team }: TeamCardProps) {
             </div>
           </div>
           <div className="text-right">
-            <div className="text-xs text-zinc-500 uppercase font-bold">Purse Left</div>
-            <div className="text-green-400 font-mono font-bold">{team.purseLeft.replace(' Cr', '')} Cr</div>
+            <div className="text-xs text-zinc-500 uppercase font-bold">Purse Spent</div>
+            <div className="text-green-400 font-mono font-bold">{team.purseSpent.replace(' Cr', '')} <span className="text-zinc-600 text-[10px]">/ 120 Cr</span></div>
           </div>
         </div>
 
@@ -86,8 +86,22 @@ export function TeamCard({ team }: TeamCardProps) {
           </div>
 
           <div className="bg-zinc-950/50 p-2 rounded-lg border border-zinc-800">
-             <div className="text-[10px] text-zinc-500 uppercase mb-1">Title / Top-4 Probability</div>
-             <div className="text-xs font-medium text-zinc-300">{team.analysis.titleProbability}</div>
+             <div className="text-[10px] text-zinc-500 uppercase mb-2">Probability</div>
+             <div className="grid grid-cols-2 gap-2">
+               {team.analysis.titleProbability.split('<br>').map((prob, i) => {
+                 const [label, value] = prob.split(':').map(s => s.trim());
+                 const isHigh = value.toLowerCase().includes('high');
+                 const isMed = value.toLowerCase().includes('med');
+                 const colorClass = isHigh ? 'text-green-400' : isMed ? 'text-yellow-400' : 'text-red-400';
+                 
+                 return (
+                   <div key={i} className="bg-zinc-900 rounded p-1.5 text-center border border-zinc-800/50">
+                     <div className="text-[9px] text-zinc-500 uppercase mb-0.5">{label}</div>
+                     <div className={`text-xs font-bold ${colorClass}`}>{value}</div>
+                   </div>
+                 );
+               })}
+             </div>
           </div>
         </div>
 

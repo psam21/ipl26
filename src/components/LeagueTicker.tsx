@@ -8,11 +8,11 @@ interface LeagueTickerProps {
 }
 
 export function LeagueTicker({ teams }: LeagueTickerProps) {
-  // Find top 5 most expensive players across league
+  // Find top 10 most expensive players across league
   const allPlayers = teams.flatMap(t => t.roster.map(p => ({ ...p, team: t.code })));
   const topBuys = allPlayers
     .sort((a, b) => parseFloat(b.soldPrice) - parseFloat(a.soldPrice))
-    .slice(0, 5);
+    .slice(0, 10);
 
   return (
     <div className="w-full bg-zinc-950 border-b border-zinc-800 overflow-hidden whitespace-nowrap py-2 flex items-center">
@@ -24,8 +24,8 @@ export function LeagueTicker({ teams }: LeagueTickerProps) {
 
       <motion.div 
         className="flex items-center gap-8 px-4"
-        animate={{ x: [0, -1000] }}
-        transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
+        animate={{ x: [0, -2000] }}
+        transition={{ repeat: Infinity, duration: 60, ease: "linear" }}
       >
         {topBuys.map((player, i) => (
           <div key={i} className="flex items-center gap-2 text-sm">

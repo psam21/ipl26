@@ -57,7 +57,7 @@ export function TeamCard({ team }: TeamCardProps) {
           </div>
           <div className="text-right">
             <div className="text-xs text-zinc-500 uppercase font-bold">Purse Spent</div>
-            <div className="text-green-400 font-mono font-bold">{team.purseSpent.replace(' Cr', '')} <span className="text-zinc-600 text-[10px]">/ 120 Cr</span></div>
+            <div className="text-green-400 font-mono font-bold">{team.purseSpent}</div>
           </div>
         </div>
 

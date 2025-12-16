@@ -30,9 +30,9 @@ interface TeamAnalysis {
   bestXI: string;
 }
 
-const PROJECT_ROOT = path.resolve(__dirname, '../..');
-const AUCTION_FILE = path.join(PROJECT_ROOT, 'IPL 2026 Auction Complete Players List.txt');
-const ANALYSIS_FILE = path.join(PROJECT_ROOT, 'IPL 2026 Team Analysis.txt');
+const PROJECT_ROOT = path.resolve(__dirname, '..');
+const AUCTION_FILE = path.join(PROJECT_ROOT, 'data_source', 'IPL 2026 Auction Complete Players List.txt');
+const ANALYSIS_FILE = path.join(PROJECT_ROOT, 'data_source', 'IPL 2026 Team Analysis.txt');
 
 async function parseAuctionFile(): Promise<TeamStats[]> {
   const content = fs.readFileSync(AUCTION_FILE, 'utf-8');

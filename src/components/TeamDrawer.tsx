@@ -85,13 +85,13 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
                     <Users className="w-5 h-5 text-blue-400" />
                     Predicted Best XI
                   </h3>
-                  <PitchView bestXI={team.analysis.bestXI} />
+                  <PitchView bestXI={team.analysis.bestXI} teamCode={team.code} />
                 </div>
 
                 {/* Full Roster */}
                 <div className="bg-zinc-950 rounded-xl p-4 border border-zinc-800 h-fit">
                   <h3 className="text-lg font-bold text-white mb-4">Full Squad</h3>
-                  <RosterTable roster={team.roster} />
+                  <RosterTable roster={team.roster} teamCode={team.code} />
                 </div>
               </div>
             </div>

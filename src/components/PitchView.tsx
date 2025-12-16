@@ -131,7 +131,7 @@ function MiniPlayerPill({ player, teamCode, align }: { player: Player; teamCode:
 
   return (
     <div className={`flex items-center gap-2 ${align === 'left' ? 'flex-row-reverse' : 'flex-row'}`}>
-      <div className="w-6 h-6 rounded-full bg-zinc-800 border border-zinc-700 overflow-hidden flex-shrink-0">
+      <div className="w-6 h-6 rounded-full bg-blue-900/30 border border-blue-500 overflow-hidden flex-shrink-0 shadow-[0_0_8px_rgba(59,130,246,0.6)]">
         {!error ? (
           <img 
             src={imageUrl} 
@@ -140,7 +140,7 @@ function MiniPlayerPill({ player, teamCode, align }: { player: Player; teamCode:
             onError={() => setError(true)}
           />
         ) : (
-          <User className="w-3 h-3 text-zinc-500" />
+          <User className="w-3 h-3 text-blue-200" />
         )}
       </div>
       <span className="text-[9px] text-white/80 font-medium whitespace-nowrap shadow-sm bg-black/30 px-1 rounded">

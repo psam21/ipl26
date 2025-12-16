@@ -11,7 +11,7 @@ A real-time, interactive dashboard for analyzing the IPL 2026 Mega Auction resul
 - **Interactive Team Drawers**: Drill down into any team to view:
   - **SWOT Analysis**: Strengths and Weaknesses parsed from expert analysis.
   - **Pitch View**: Visual representation of the "Best XI" on a cricket field, with sidebars showing squad depth (reserves).
-  - **Roster Table**: Sortable list of all players with price tags and "New" player badges.
+  - **Roster Table**: Sortable list of all players with price tags, Age, IPL Experience, and "New" player badges.
 - **Visual Analytics**: Color-coded indicators for Title Probability (Green/Yellow/Red) and detailed probability breakdowns.
 
 ## 🛠️ Tech Stack
@@ -34,7 +34,7 @@ A real-time, interactive dashboard for analyzing the IPL 2026 Mega Auction resul
 │   └── types/          # TypeScript definitions
 ├── data_source/        # Raw text files (Auction List & Team Analysis)
 ├── scripts/            # Data processing & scraping scripts
-│   ├── scraping/       # Web scraping modules (teams, players)
+│   ├── scrape-player-details.ts # Scrapes player DOB and Debut
 │   └── seed-data.ts    # Main data generation script
 └── public/             # Static assets
 ```
@@ -52,9 +52,17 @@ cd ipl26
 npm install
 ```
 
-### 3. Seed the Data
-The app uses a local JSON file generated from the raw text files in `data_source/`. Run this script to parse the text files and generate `src/data/ipl_data.json`.
+### 3. Data Pipeline
+The app uses a local JSON file generated from raw text files and web scraping.
 
+**Step 1: Scrape Player Details (Optional)**
+Fetches Age and IPL Debut data for players.
+```bash
+npx tsx scripts/scrape-player-details.ts
+```
+
+**Step 2: Seed the Data**
+Parses text files in `data_source/` and merges with scraped data to generate `src/data/ipl_data.json`.
 ```bash
 npx tsx scripts/seed-data.ts
 ```

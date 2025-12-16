@@ -61,7 +61,7 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
                       <Shield className="w-5 h-5" />
                       <h3 className="font-bold">Strengths</h3>
                     </div>
-                    <ul className="space-y-2">
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
                       {team.analysis.strongPoints.map((point, i) => (
                         <li key={i} className="text-sm text-zinc-300 flex gap-2">
                           <span className="text-green-500">•</span>
@@ -76,7 +76,7 @@ export function TeamDrawer({ team, isOpen, onClose }: TeamDrawerProps) {
                       <AlertCircle className="w-5 h-5" />
                       <h3 className="font-bold">Weaknesses</h3>
                     </div>
-                    <ul className="space-y-2">
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
                       {team.analysis.weakPoints.map((point, i) => (
                         <li key={i} className="text-sm text-zinc-300 flex gap-2">
                           <span className="text-red-500">•</span>

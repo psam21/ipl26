@@ -106,6 +106,39 @@ async function scrapeDetails(url: string) {
 
 const LINKS_FILE = path.join(process.cwd(), 'src', 'data', 'player_links.json');
 
+// Known name mappings: auction name -> IPL website search name
+const NAME_ALIASES: Record<string, string> = {
+  'matthew short': 'matthew william short',
+  'lungi ngidi': 'lungisani ngidi',
+  'm shahrukh khan': 'shahrukh khan',
+  'gurnoor brar': 'gurnoor singh brar',
+  'arshad khan': 'mohd. arshad khan',
+  'suryakumar yadav': 'surya kumar yadav',
+  'tilak varma': 'n. tilak varma',
+  'am ghazanfar': 'allah ghazanfar',
+  'raj bawa': 'raj angad bawa',
+  'vijaykumar vyshak': 'vyshak vijaykumar',
+  'harnoor singh': 'harnoor pannu',
+  'praveen dubey': 'pravin dubey',
+  'yudhvir singh': 'yudhvir singh charak',
+  'rasikh salam': 'rasikh dar',
+  'ravichandran smaran': 'smaran ravichandran',
+  'digvesh rathi': 'digvesh singh',
+  'manimaran siddharth': 'm siddharth',
+  'auqib nabi': 'auqib dar',
+  'tejasvi dahiya': 'tejasvi singh',
+  'mohd izhar': 'mohammad izhar',
+  'aman rao': 'aman rao perala',
+};
+
+// Direct URL mappings for players not found via search
+const DIRECT_URLS: Record<string, string> = {
+  'auqib nabi': 'https://www.iplt20.com/players/auqib-dar/22341',
+  'tejasvi dahiya': 'https://www.iplt20.com/players/tejasvi-singh/22428',
+  'mohd izhar': 'https://www.iplt20.com/players/mohammad-izhar/10841',
+  'aman rao': 'https://www.iplt20.com/players/aman-rao-perala/22399',
+};
+
 // Simple Levenshtein distance for fuzzy matching
 function levenshtein(a: string, b: string): number {
   const matrix = [];
@@ -136,6 +169,7 @@ function levenshtein(a: string, b: string): number {
 
 function findBestMatch(targetName: string, candidates: { name: string, url: string }[]): string | null {
   const target = targetName.toLowerCase().replace(/[^a-z ]/g, '');
+  const targetParts = target.split(' ').filter(p => p.length > 1);
   let bestMatch = null;
   let minDistance = Infinity;
 
@@ -147,15 +181,27 @@ function findBestMatch(targetName: string, candidates: { name: string, url: stri
         return candidate.url;
     }
 
-    // 2. Levenshtein distance
+    // 2. Check if all significant name parts match
+    const sourceParts = source.split(' ').filter(p => p.length > 1);
+    const lastNameMatch = targetParts.length > 0 && sourceParts.length > 0 &&
+      (targetParts[targetParts.length - 1] === sourceParts[sourceParts.length - 1] ||
+       targetParts[targetParts.length - 1].includes(sourceParts[sourceParts.length - 1]) ||
+       sourceParts[sourceParts.length - 1].includes(targetParts[targetParts.length - 1]));
+    
+    // Require last name match for multi-word names
+    if (targetParts.length > 1 && sourceParts.length > 1 && !lastNameMatch) {
+      continue;
+    }
+
+    // 3. Levenshtein distance
     const dist = levenshtein(target, source);
     
     // Normalize distance by length to get a ratio
     const maxLength = Math.max(target.length, source.length);
     const ratio = dist / maxLength;
 
-    // Threshold: 30% difference allowed
-    if (ratio < 0.3 && dist < minDistance) {
+    // Threshold: 25% difference allowed (tighter than before)
+    if (ratio < 0.25 && dist < minDistance) {
       minDistance = dist;
       bestMatch = candidate.url;
     }
@@ -192,10 +238,32 @@ async function main() {
   for (const p of missingPlayers) {
     console.log(`Searching for ${p.name} (${p.teamCode})...`);
     
-    // Filter candidates by team
-    const teamCandidates = playerLinks.filter(l => l.teamCode === p.teamCode);
+    // Check if there's a known alias for this name
+    const normalizedName = p.name.toLowerCase().trim();
+    const aliasName = NAME_ALIASES[normalizedName] || p.name;
     
-    let profileUrl = findBestMatch(p.name, teamCandidates);
+    // Check for direct URL mapping first
+    let profileUrl = DIRECT_URLS[normalizedName] || null;
+    
+    if (profileUrl) {
+      console.log(`  Using direct URL: ${profileUrl}`);
+    } else {
+      // Filter candidates by team
+      const teamCandidates = playerLinks.filter(l => l.teamCode === p.teamCode);
+      
+      // Try with original name first, then alias
+      profileUrl = findBestMatch(p.name, teamCandidates);
+      
+      if (!profileUrl && aliasName !== p.name) {
+        console.log(`  Trying alias: ${aliasName}`);
+        profileUrl = findBestMatch(aliasName, teamCandidates);
+      }
+      
+      // Fallback: try all teams if not found in specific team
+      if (!profileUrl) {
+        profileUrl = findBestMatch(aliasName, playerLinks);
+      }
+    }
 
     if (profileUrl) {
         // Ensure absolute URL
@@ -204,9 +272,19 @@ async function main() {
         }
         console.log(`  Found URL: ${profileUrl}`);
     } else {
-        // Fallback to global search if team match fails (maybe team code mismatch?)
-        // But let's stick to team context first as requested.
-        console.log(`  ❌ Could not find profile for ${p.name} in ${p.teamCode}`);
+        // Last resort: try IPL website search
+        console.log(`  Trying IPL search for: ${aliasName}`);
+        profileUrl = await searchPlayer(aliasName);
+        
+        if (!profileUrl && aliasName !== p.name) {
+          profileUrl = await searchPlayer(p.name);
+        }
+        
+        if (profileUrl) {
+          console.log(`  Found via search: ${profileUrl}`);
+        } else {
+          console.log(`  ❌ Could not find profile for ${p.name} in ${p.teamCode}`);
+        }
     }
 
     if (profileUrl) {

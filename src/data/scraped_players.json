@@ -2281,6 +2281,15 @@
     "totalYears": 9
   },
   {
+    "name": "Matthew Short",
+    "teamCode": "CSK",
+    "profileUrl": "https://www.iplt20.com/players/matthew-william-short/2032 ",
+    "dob": "08 November 1995",
+    "iplDebut": "2023",
+    "age": 30,
+    "totalYears": 4
+  },
+  {
     "name": "T Natarajan",
     "teamCode": "DC",
     "profileUrl": "https://www.iplt20.com/players/t-natarajan/3831 ",
@@ -2288,6 +2297,13 @@
     "iplDebut": "2017",
     "age": 34,
     "totalYears": 10
+  },
+  {
+    "name": "Auqib Nabi",
+    "teamCode": "DC",
+    "profileUrl": "https://www.iplt20.com/players/auqib-dar/22341",
+    "dob": "",
+    "iplDebut": ""
   },
   {
     "name": "Lungi Ngidi",
@@ -2308,22 +2324,29 @@
     "totalYears": 6
   },
   {
-    "name": "Arshad Khan",
+    "name": "Gurnoor Brar",
     "teamCode": "GT",
-    "profileUrl": "https://www.iplt20.com/players/rashid-khan/2885 ",
-    "dob": "20 September 1998",
-    "iplDebut": "2017",
-    "age": 27,
-    "totalYears": 10
+    "profileUrl": "https://www.iplt20.com/players/gurnoor-singh-brar/1094 ",
+    "dob": "25 May 2000",
+    "iplDebut": "2023",
+    "age": 25,
+    "totalYears": 4
   },
   {
-    "name": "Varun Chakravarthy",
+    "name": "Arshad Khan",
+    "teamCode": "GT",
+    "profileUrl": "https://www.iplt20.com/players/mohd-arshad-khan/20599 ",
+    "dob": "20 December 1997",
+    "iplDebut": "2023",
+    "age": 28,
+    "totalYears": 4
+  },
+  {
+    "name": "Tejasvi Dahiya",
     "teamCode": "KKR",
-    "profileUrl": "https://www.iplt20.com/players/varun-chakaravarthy/5432 ",
-    "dob": "29 August 1991",
-    "iplDebut": "2019",
-    "age": 34,
-    "totalYears": 8
+    "profileUrl": "https://www.iplt20.com/players/tejasvi-singh/22428",
+    "dob": "",
+    "iplDebut": ""
   },
   {
     "name": "Mohammed Shami",
@@ -2335,13 +2358,22 @@
     "totalYears": 14
   },
   {
-    "name": "Shahbaz Ahmed",
+    "name": "Manimaran Siddharth",
     "teamCode": "LSG",
-    "profileUrl": "https://www.iplt20.com/players/shahbaz-ahamad/13803 ",
-    "dob": "11 December 1994",
-    "iplDebut": "2020",
-    "age": 31,
-    "totalYears": 7
+    "profileUrl": "https://www.iplt20.com/players/m-siddharth/7119 ",
+    "dob": "03 July 1998",
+    "iplDebut": "2024",
+    "age": 27,
+    "totalYears": 3
+  },
+  {
+    "name": "Digvesh Rathi",
+    "teamCode": "LSG",
+    "profileUrl": "https://www.iplt20.com/players/digvesh-singh/5847 ",
+    "dob": "15 December 1999",
+    "iplDebut": "2025",
+    "age": 26,
+    "totalYears": 2
   },
   {
     "name": "Suryakumar Yadav",
@@ -2371,6 +2403,22 @@
     "totalYears": 3
   },
   {
+    "name": "Mohd Izhar",
+    "teamCode": "MI",
+    "profileUrl": "https://www.iplt20.com/players/mohammad-izhar/10841",
+    "dob": "",
+    "iplDebut": ""
+  },
+  {
+    "name": "Raj Bawa",
+    "teamCode": "MI",
+    "profileUrl": "https://www.iplt20.com/players/raj-angad-bawa/20601 ",
+    "dob": "12 November 2002",
+    "iplDebut": "2022",
+    "age": 23,
+    "totalYears": 5
+  },
+  {
     "name": "Mitchell Owen",
     "teamCode": "PBKS",
     "profileUrl": "https://www.iplt20.com/players/mitch-owen/22380 ",
@@ -2380,6 +2428,23 @@
     "totalYears": 2
   },
   {
+    "name": "Vijaykumar Vyshak",
+    "teamCode": "PBKS",
+    "profileUrl": "https://www.iplt20.com/players/vyshak-vijaykumar/1097 ",
+    "dob": "31 January 1997",
+    "iplDebut": "2023",
+    "age": 28,
+    "totalYears": 4
+  },
+  {
+    "name": "Harnoor Singh",
+    "teamCode": "PBKS",
+    "profileUrl": "https://www.iplt20.com/players/harnoor-pannu/22019 ",
+    "dob": "30 January 2003",
+    "iplDebut": "-",
+    "age": 22
+  },
+  {
     "name": "Praveen Dubey",
     "teamCode": "PBKS",
     "profileUrl": "https://www.iplt20.com/players/pravin-dubey/3188 ",
@@ -2387,5 +2452,37 @@
     "iplDebut": "2020",
     "age": 32,
     "totalYears": 7
+  },
+  {
+    "name": "Yudhvir Singh",
+    "teamCode": "RR",
+    "profileUrl": "https://www.iplt20.com/players/yudhvir-singh-charak/10842 ",
+    "dob": "13 September 1997",
+    "iplDebut": "2023",
+    "age": 28,
+    "totalYears": 4
+  },
+  {
+    "name": "Aman Rao",
+    "teamCode": "RR",
+    "profileUrl": "https://www.iplt20.com/players/aman-rao-perala/22399",
+    "dob": "",
+    "iplDebut": ""
+  },
+  {
+    "name": "Rasikh Salam",
+    "teamCode": "RCB",
+    "profileUrl": "https://www.iplt20.com/players/rasikh-dar/20577 ",
+    "dob": "05 April 2000",
+    "iplDebut": "2019",
+    "age": 25,
+    "totalYears": 8
+  },
+  {
+    "name": "Ravichandran Smaran",
+    "teamCode": "SRH",
+    "profileUrl": "https://www.iplt20.com/players/smaran-ravichandran/22378 ",
+    "dob": "N/A",
+    "iplDebut": "-"
   }
 ]

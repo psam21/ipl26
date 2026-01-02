@@ -146,7 +146,9 @@
         "type": "AR",
         "isNew": true,
         "basePrice": "1.50",
-        "soldPrice": "1.50"
+        "soldPrice": "1.50",
+        "age": 30,
+        "totalYears": 4
       },
       {
         "name": "Jamie Overton",
@@ -663,7 +665,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.30"
+        "soldPrice": "1.30",
+        "age": 25,
+        "totalYears": 4
       },
       {
         "name": "Arshad Khan",
@@ -671,8 +675,8 @@
         "isNew": false,
         "basePrice": "-",
         "soldPrice": "1.30",
-        "age": 27,
-        "totalYears": 10
+        "age": 28,
+        "totalYears": 4
       },
       {
         "name": "Ashok Sharma",
@@ -826,9 +830,7 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "12.00",
-        "age": 34,
-        "totalYears": 8
+        "soldPrice": "12.00"
       },
       {
         "name": "Sunil Narine",
@@ -1173,9 +1175,7 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "2.40",
-        "age": 31,
-        "totalYears": 7
+        "soldPrice": "2.40"
       },
       {
         "name": "Akshat Raghuwanshi",
@@ -1226,7 +1226,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.75"
+        "soldPrice": "0.75",
+        "age": 27,
+        "totalYears": 3
       },
       {
         "name": "Matthew Breetzke",
@@ -1243,7 +1245,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 26,
+        "totalYears": 2
       },
       {
         "name": "Arshin Kulkarni",
@@ -1513,7 +1517,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 23,
+        "totalYears": 5
       },
       {
         "name": "Ashwani Kumar",
@@ -1728,7 +1734,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "1.80"
+        "soldPrice": "1.80",
+        "age": 28,
+        "totalYears": 4
       },
       {
         "name": "Yash Thakur",
@@ -1811,7 +1819,8 @@
         "type": "BAT",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.30"
+        "soldPrice": "0.30",
+        "age": 22
       },
       {
         "name": "Praveen Dubey",
@@ -2044,7 +2053,9 @@
         "type": "AR",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "0.35"
+        "soldPrice": "0.35",
+        "age": 28,
+        "totalYears": 4
       },
       {
         "name": "Yash Raj Punja",
@@ -2194,7 +2205,9 @@
         "type": "BOWL",
         "isNew": false,
         "basePrice": "-",
-        "soldPrice": "6.00"
+        "soldPrice": "6.00",
+        "age": 25,
+        "totalYears": 8
       },
       {
         "name": "Krunal Pandya",
